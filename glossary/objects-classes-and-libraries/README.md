@@ -16,7 +16,7 @@ Classes are sets of code that control something specific - an example would be t
 
 Classes can exist within classes that provide information about how the classes work with each other. MonoBehaviour is an example of a base class in Unity and allows the programmer to use the Start\(\) and Update\(\) functions as well as the collider and trigger functions.
 
-Libraries
+## Libraries
 
 Libraries are collections of code that have a specific purpose and are often used as a resource to make coding easier. These are usually **imported** into projects with keywords like **include** and **using.** Because of this, sometimes, you'll hear them called "includes."
 
