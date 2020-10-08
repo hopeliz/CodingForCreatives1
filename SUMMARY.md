@@ -67,6 +67,8 @@
   * [Parameters & Arguments](glossary/functions-and-methods/parameters-and-arguments.md)
 * [Interaction](glossary/interaction-1/README.md)
   * [Mouse Interaction](glossary/interaction-1/interaction.md)
+* [Objects, Classes & Libraries](glossary/objects-classes-and-libraries/README.md)
+  * [Untitled](glossary/objects-classes-and-libraries/untitled.md)
 * [Packaging and Sharing](glossary/packaging-and-sharing.md)
 
 ## Templates
