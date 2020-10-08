@@ -4,6 +4,10 @@ In this activity, you'll have a character walk left and right \(using a walk cyc
 
 For information on how to create a new Unity project and what each of the windows/tabs mean, please see [Week 5-D Step 1](../week-5/week-5-d-for-and-foreach-loops-in-unity.md).
 
+## Images
+
+{% file src="../../.gitbook/assets/marioimages.zip" caption="MarioImages.zip" %}
+
 ## Step 1: Create and Set Up a New Scene
 
 Open a previous Unity project file or create a new one.

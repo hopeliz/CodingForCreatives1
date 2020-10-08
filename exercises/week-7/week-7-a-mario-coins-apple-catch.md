@@ -2,6 +2,10 @@
 
 This starts off after we add the jump code. Please start from the end of Week 6-B's activity.
 
+## Images
+
+{% file src="../../.gitbook/assets/marioimages.zip" caption="MarioImages.zip" %}
+
 ## Start with this Code
 
 {% hint style="info" %}
