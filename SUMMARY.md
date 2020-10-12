@@ -26,6 +26,7 @@
   * [Week 7 Starter Code \(really from Week 6\)](exercises/week-6/week-7-starter-code.md)
 * [Week 7](exercises/week-7/README.md)
   * [Week 7-A Mario Coin Catch](exercises/week-7/week-7-a-mario-coins-apple-catch.md)
+  * [Week 7-B Raycasting Example](exercises/week-7/week-7-b-raycasting-example.md)
 
 ## Glossary and Terms <a id="glossary"></a>
 
