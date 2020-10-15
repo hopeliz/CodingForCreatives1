@@ -1,4 +1,4 @@
-# Unity Example
+# Unity Example \(3D\)
 
 {% hint style="danger" %}
 You must either name your new script PlayerMovement.cs OR update this code after the word "class" to the name of your script.
