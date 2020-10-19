@@ -170,5 +170,7 @@ Click and drag from your source operator to the field for your target parameter 
 
 ![](../.gitbook/assets/tdref.gif)
 
+## Output
 
+The output notch is on the right side of the operator.
 
