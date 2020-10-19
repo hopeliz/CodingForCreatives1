@@ -87,4 +87,5 @@
 * [Popular TOPs](touchdesigner-info/popular-tops.md)
 * [Popular CHOPs](touchdesigner-info/popular-chops.md)
 * [Popular SOPs](touchdesigner-info/popular-sops.md)
+* [Popular DATs](touchdesigner-info/popular-dats.md)
 

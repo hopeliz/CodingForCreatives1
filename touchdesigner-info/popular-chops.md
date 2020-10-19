@@ -2,7 +2,7 @@
 
 Channel operators \(CHOPs\) are colored green and manipulate number data and audio.
 
-![](../.gitbook/assets/image%20%28146%29.png)
+![](../.gitbook/assets/image%20%28148%29.png)
 
 ## Basics
 
@@ -10,13 +10,13 @@ Channel operators \(CHOPs\) are colored green and manipulate number data and aud
 
 Provides a snapshot of sorts of a point within your network. Commonly used to help look at the effects of major changes later and remove them easily when necessary.
 
-![](../.gitbook/assets/image%20%28147%29.png)
+![](../.gitbook/assets/image%20%28149%29.png)
 
 ### Constant CHOP
 
 Provides a number, usually typed in. You can have multiple channels/numbers. The slider makes values 0-1 easy to get, but you can type in larger numbers and negative numbers.
 
-![](../.gitbook/assets/image%20%28167%29.png)
+![](../.gitbook/assets/image%20%28169%29.png)
 
 ![](../.gitbook/assets/image%20%28137%29.png)
 
@@ -24,7 +24,7 @@ Provides a number, usually typed in. You can have multiple channels/numbers. The
 
 For when you want some randomness.
 
-![Line graph version](../.gitbook/assets/image%20%28184%29.png)
+![Line graph version](../.gitbook/assets/image%20%28187%29.png)
 
 To see it moving in real-time, use the **Common &gt; Time Slice** parameter
 
@@ -34,7 +34,7 @@ To see it moving in real-time, use the **Common &gt; Time Slice** parameter
 
 Takes in multiple channel operators \(CHOPS\) and creates an array. A single element of the array can be accessed by the Switch CHOP's Index parameter.
 
-![](../.gitbook/assets/image%20%28183%29.png)
+![](../.gitbook/assets/image%20%28185%29.png)
 
 ## Math
 
@@ -44,11 +44,11 @@ Does math including absolute powers, turning numbers, negative, etc.
 
 _Example of adding two CHOPs:_
 
-![](../.gitbook/assets/image%20%28154%29.png)
+![](../.gitbook/assets/image%20%28156%29.png)
 
 _Example of subtracting two channels from the same CHOP:_
 
-![](../.gitbook/assets/image%20%28159%29.png)
+![](../.gitbook/assets/image%20%28161%29.png)
 
 _Example of making a number negative:_
 
@@ -60,7 +60,7 @@ _Example of rounding up to the next integer:_
 
 _Example of getting a square root of a number:_
 
-![](../.gitbook/assets/image%20%28148%29.png)
+![](../.gitbook/assets/image%20%28150%29.png)
 
 ### Using Math CHOP to adjust range/map values
 
@@ -68,7 +68,7 @@ The top way you'll use a Math CHOP is to adjust the range of values. Many operat
 
 _Example of having the 0-255 RGB values, but need a 0-1 RGB value for a Constant TOP:_
 
-![](../.gitbook/assets/image%20%28163%29.png)
+![](../.gitbook/assets/image%20%28165%29.png)
 
 ## Logic
 
@@ -78,7 +78,7 @@ Will turn on/fire true under certain circumstances - kinda like an if statement 
 
 _Example of the Logic CHOP being true when the input is 2:_
 
-![](../.gitbook/assets/image%20%28179%29.png)
+![](../.gitbook/assets/image%20%28181%29.png)
 
 ### Count CHOP
 

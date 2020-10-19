@@ -12,7 +12,7 @@ Input notches are on the **left side** of the operators.
 
 _Example of an operator that has one input:_
 
-![](../.gitbook/assets/image%20%28185%29.png)
+![](../.gitbook/assets/image%20%28188%29.png)
 
 _Example of an operator that has three outputs:_
 
@@ -20,11 +20,11 @@ _Example of an operator that has three outputs:_
 
 _Example of an operator that takes in multiple inputs to create a list or something like an array:_
 
-![Notice that this input is larger than the others.](../.gitbook/assets/image%20%28160%29.png)
+![Notice that this input is larger than the others.](../.gitbook/assets/image%20%28162%29.png)
 
 _Example of an operator that has no inputs:_
 
-![](../.gitbook/assets/image%20%28144%29.png)
+![](../.gitbook/assets/image%20%28145%29.png)
 
 ### How to see what input is wanted
 
@@ -32,19 +32,19 @@ Hover your mouse over the input notch - a description will come up with the inpu
 
 Examples:
 
-![ ](../.gitbook/assets/image%20%28180%29.png)
+![ ](../.gitbook/assets/image%20%28182%29.png)
 
 Here, the operator is looking for a connected operator to provide an audio/video source as an input.
 
-![](../.gitbook/assets/image%20%28181%29.png)
+![](../.gitbook/assets/image%20%28183%29.png)
 
 Here, the operator is looking for an operator with at least one channel connected to the first input to see if changes warrant a count change.
 
-![](../.gitbook/assets/image%20%28176%29.png)
+![](../.gitbook/assets/image%20%28178%29.png)
 
 Here, the operator is looking for an operator connected to the second input that will fire "true" when the count should reset, if wanted.
 
-![](../.gitbook/assets/image%20%28186%29.png)
+![](../.gitbook/assets/image%20%28189%29.png)
 
 Here, the operator is looking for an operator connected to the third input that will provide the increment value if different than the default. Note: this value can be negative!
 
@@ -58,7 +58,7 @@ If you do not see the Parameters window, this can be toggled on and off with the
 
 Example of a Parameters window:
 
-![](../.gitbook/assets/image%20%28143%29.png)
+![](../.gitbook/assets/image%20%28144%29.png)
 
 Things to notice:
 
@@ -76,13 +76,13 @@ The rest are parameters - like in a function - that are values that change how s
 
 For TOPs \(purple texture operators\), the **Common** tab is where you can update the resolution and aspect of the output image. It usually defaults to "Use Input," but can be changed. Free versions are limited, though.
 
-![](../.gitbook/assets/image%20%28155%29.png)
+![](../.gitbook/assets/image%20%28157%29.png)
 
 For CHOPs \(green channel operators\), the **Common** tab is where you can change how a node appears \(line graph vs. moving bar graph, called a "Time Slice"\).
 
-![](../.gitbook/assets/image%20%28158%29.png)
+![](../.gitbook/assets/image%20%28160%29.png)
 
-![](../.gitbook/assets/image%20%28171%29.png)
+![](../.gitbook/assets/image%20%28173%29.png)
 
 ### Referencing Other Operators in Parameters
 
@@ -92,7 +92,7 @@ There are two ways to do this.
 
 First, expand the parameter you want to have the value in by pressing the plus sign that appears next to it when you hover over the name of the parameter:
 
-![](../.gitbook/assets/image%20%28172%29.png)
+![](../.gitbook/assets/image%20%28174%29.png)
 
 ![](../.gitbook/assets/image%20%28133%29.png)
 
@@ -110,7 +110,7 @@ The colored squares next to the value mean:
 
 We will use the Cyan expression option, so click on the cyan square.
 
-![](../.gitbook/assets/image%20%28162%29.png)
+![](../.gitbook/assets/image%20%28164%29.png)
 
 It defaults to whatever the current type value was.
 
@@ -134,13 +134,13 @@ op('operatorname').par.parametername
 
 In this example, I want this count CHOP value to be the seed value of my noise CHOP
 
-![](../.gitbook/assets/image%20%28150%29.png)
+![](../.gitbook/assets/image%20%28152%29.png)
 
 So here are my options:
 
 #### Option 1: Typing in an expression
 
-![](../.gitbook/assets/image%20%28164%29.png)
+![](../.gitbook/assets/image%20%28166%29.png)
 
 or
 
@@ -148,11 +148,11 @@ or
 
 Let's say instead of this output value, I want the Reset Value parameter of the count CHOP instead:
 
-![](../.gitbook/assets/image%20%28175%29.png)
+![](../.gitbook/assets/image%20%28177%29.png)
 
 I could use the following expression:
 
-![](../.gitbook/assets/image%20%28153%29.png)
+![](../.gitbook/assets/image%20%28155%29.png)
 
 #### Option 2: Click and Drag Output Values
 
@@ -162,7 +162,7 @@ Toggle the Viewer Active option on the bottom right of the channel operator.
 
 This will fill the operator with the output value.
 
-![](../.gitbook/assets/image%20%28174%29.png)
+![](../.gitbook/assets/image%20%28176%29.png)
 
 Select your target operator to bring up its parameters.
 
