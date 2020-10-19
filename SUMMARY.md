@@ -81,3 +81,10 @@
   * [Unity Example \(3D\)](templates/movement-code/unity-example.md)
   * [Unity Example \(2D Platformer\)](templates/movement-code/unity-example-2d-platformer.md)
 
+## TouchDesigner Info
+
+* [Overview](touchdesigner-info/overview.md)
+* [Popular TOPs](touchdesigner-info/popular-tops.md)
+* [Popular CHOPs](touchdesigner-info/popular-chops.md)
+* [Popular SOPs](touchdesigner-info/popular-sops.md)
+
