@@ -70,6 +70,7 @@
   * [Mouse Interaction](glossary/interaction-1/interaction.md)
 * [Objects, Classes & Libraries](glossary/objects-classes-and-libraries/README.md)
   * [Accessing Objects](glossary/objects-classes-and-libraries/untitled.md)
+* [Node-Based Programming](glossary/node-based-programming.md)
 * [Packaging and Sharing](glossary/packaging-and-sharing.md)
 
 ## Templates
