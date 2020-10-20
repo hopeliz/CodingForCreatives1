@@ -6,6 +6,40 @@ TouchDesigner is a program that uses node-based programming and Python scripting
 
 Each operator or node is like a [function](../glossary/functions-and-methods/). Many will have input notches, parameters \(values within the operator\), and an output \(similar to a return\) that can go into another node.
 
+## Types of Operators
+
+In node-based programming, output data types have to match the input of the next node. In TouchDesigner, instead of multiple output types on one node, operators are separated by their own type:
+
+![](../.gitbook/assets/image%20%28191%29.png)
+
+### **COMP \(Components\)**
+
+These are operators that handle things like user interface, lighting, etc.
+
+### TOP \(Texture Operators\)
+
+These operators handle 2D images, animations, and video effects. Think of these like Photoshop and AfterEffects.
+
+### CHOP \(Channel Operators\)
+
+These operators deal with numbers and audio. Each value is often displayed as a "channel."
+
+{% hint style="info" %}
+Numbers over time and some arrays of numbers will appear as a line graph. To change this into a value that "slices" through the line graph values, use the Time Slice CHOP or the Time Slice parameter under the Common tab.
+{% endhint %}
+
+### SOP \(Surface Operators\)
+
+These operators handle 3D shapes and objects. Think of these like Maya, Blender, etc.
+
+### MAT \(Materials\)
+
+These operators handle materials, textures, and shaders.
+
+### DAT \(Data\)
+
+These operators handle Python and other types of scripting as well as tables.
+
 ## Inputs
 
 Input notches are on the **left side** of the operators.
