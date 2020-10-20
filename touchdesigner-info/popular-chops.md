@@ -1,6 +1,6 @@
 # Popular CHOPs
 
-Channel operators \(CHOPs\) are colored green and manipulate number data and audio.
+Channel operators \(CHOPs\) are colored green and manipulate number data, booleans \(on/off or true/false\), and audio.
 
 ![](../.gitbook/assets/image%20%28148%29.png)
 

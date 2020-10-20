@@ -22,7 +22,7 @@ These operators handle 2D images, animations, and video effects. Think of these 
 
 ### CHOP \(Channel Operators\)
 
-These operators deal with numbers and audio. Each value is often displayed as a "channel."
+These operators deal with numbers, booleans \(on/off or true/false\), and audio. Each value is often displayed as a "channel."
 
 {% hint style="info" %}
 Numbers over time and some arrays of numbers will appear as a line graph. To change this into a value that "slices" through the line graph values, use the Time Slice CHOP or the Time Slice parameter under the Common tab.
