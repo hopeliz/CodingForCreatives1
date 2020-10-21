@@ -36,6 +36,22 @@ Takes in multiple channel operators \(CHOPS\) and creates an array. A single ele
 
 ![](../.gitbook/assets/image%20%28185%29.png)
 
+### Select CHOP
+
+Provides a "copy" that displays selected channels from the original channel operator.
+
+Click and drag the original CHOP onto the Select CHOP or type the original CHOP's name into the Select CHOP's CHOP parameter.
+
+Click the dropdown arrow to the right of the Channels parameter to select \(one-by-one\) one or more channels.
+
+![](../.gitbook/assets/image%20%28192%29.png)
+
+{% hint style="info" %}
+When wanting all possible channels, use an asterisk \* ... This can be also used to get all possible channels that start with a certain letter or phrase.
+{% endhint %}
+
+![Example of getting only channels starting with &quot;blob0&quot;](../.gitbook/assets/image%20%28193%29.png)
+
 ## Math
 
 ### Math CHOP

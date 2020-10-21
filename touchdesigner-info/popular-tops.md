@@ -36,7 +36,21 @@ Takes in multiple texture operators \(TOPS\) and creates an array. A single elem
 
 ![](../.gitbook/assets/tdswitchtop.gif)
 
+### Select TOP
+
+Provides a visual "copy" that references another texture operator. This is great for large projects where you are referencing TOPs in other areas far from the one you need it for.
+
+Click and drag the original TOP into the Select TOP or type in the original TOP's name in the Select TOP's parameter.
+
+![](../.gitbook/assets/image%20%28194%29.png)
+
 ## Effects
+
+### Level TOP
+
+Where you access elements such as contrast, brightness, gamma, etc.
+
+![](../.gitbook/assets/image%20%28195%29.png)
 
 ### Blur TOP
 

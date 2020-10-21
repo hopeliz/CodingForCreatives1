@@ -43,6 +43,14 @@ Takes in multiple surface operators \(SOPS\) and creates an array. A single elem
 
 ![](../.gitbook/assets/image%20%28168%29.png)
 
+### Select SOP
+
+Provides a visual "copy" that references another surface operator. This is great for large projects where you are referencing SOPs in other areas far from the one you need it for.
+
+Click and drag the original SOP into the Select SOP or type in the original SOP's name in the Select SOP's parameter.
+
+![](../.gitbook/assets/image%20%28196%29.png)
+
 ## Shapes / Primitives / Transforms
 
 ### Box SOP, Sphere SOP, Torus SOP, Text SOP
