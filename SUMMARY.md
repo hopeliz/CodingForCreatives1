@@ -2,6 +2,16 @@
 
 * [Hello](README.md)
 
+## Templates & Shortcuts <a id="templates"></a>
+
+* [Power of Negative 1](templates/power-of-negative-1.md)
+* [Processing Start Code](templates/processing.md)
+* [HTML, CSS, JavaScript Start Code](templates/html-css-javascript.md)
+* [WASD Movement Code](templates/movement-code/README.md)
+  * [Processing Example](templates/movement-code/processing-example.md)
+  * [Unity Example \(3D\)](templates/movement-code/unity-example.md)
+  * [Unity Example \(2D Platformer\)](templates/movement-code/unity-example-2d-platformer.md)
+
 ## Exercises
 
 * [Week 1](exercises/week-1/README.md)
@@ -72,15 +82,6 @@
   * [Accessing Objects](glossary/objects-classes-and-libraries/untitled.md)
 * [Node-Based Programming](glossary/node-based-programming.md)
 * [Packaging and Sharing](glossary/packaging-and-sharing.md)
-
-## Templates
-
-* [Processing](templates/processing.md)
-* [HTML, CSS, JavaScript](templates/html-css-javascript.md)
-* [Movement Code](templates/movement-code/README.md)
-  * [Processing Example](templates/movement-code/processing-example.md)
-  * [Unity Example \(3D\)](templates/movement-code/unity-example.md)
-  * [Unity Example \(2D Platformer\)](templates/movement-code/unity-example-2d-platformer.md)
 
 ## TouchDesigner Info
 

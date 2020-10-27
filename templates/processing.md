@@ -1,4 +1,4 @@
-# Processing
+# Processing Start Code
 
 Without a set canvas size, a default one will appear.
 
