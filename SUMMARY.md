@@ -5,8 +5,9 @@
 ## Templates & Shortcuts <a id="templates"></a>
 
 * [Power of Negative 1](templates/power-of-negative-1.md)
-* [Processing Start Code](templates/processing.md)
-* [HTML, CSS, JavaScript Start Code](templates/html-css-javascript.md)
+* [Start Codes](templates/start-codes/README.md)
+  * [Processing Start Code](templates/start-codes/processing.md)
+  * [HTML, CSS, JavaScript Start Code](templates/start-codes/html-css-javascript.md)
 * [WASD Movement Code](templates/movement-code/README.md)
   * [Processing Example](templates/movement-code/processing-example.md)
   * [Unity Example \(3D\)](templates/movement-code/unity-example.md)
