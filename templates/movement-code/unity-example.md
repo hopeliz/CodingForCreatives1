@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
 }
 ```
 
-**Vector3 Shortcuts:**
+#### **Vector3 Shortcuts:**
 
 | Shortcut | Equivalent |
 | :--- | :--- |

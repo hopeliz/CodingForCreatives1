@@ -5,6 +5,7 @@
 ## Templates & Shortcuts <a id="templates"></a>
 
 * [Power of Negative 1](templates/power-of-negative-1.md)
+* [Modifiers](templates/modifiers.md)
 * [Start Codes](templates/start-codes/README.md)
   * [Processing Start Code](templates/start-codes/processing.md)
   * [HTML, CSS, JavaScript Start Code](templates/start-codes/html-css-javascript.md)
