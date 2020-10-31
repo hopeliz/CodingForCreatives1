@@ -1,4 +1,17 @@
-# Week 7-B Raycasting Example
+# Week 7-B Raycasting Example \(Unity\)
+
+
+
+This activity uses Unity and all code should allow you to copy and paste.
+
+For information on how to create a new Unity project and what each of the windows/tabs mean, please see [Week 5-D Step 1](../week-5/week-5-d-for-and-foreach-loops-in-unity.md).
+
+{% hint style="info" %}
+Be sure to download Visual Studio to make it easier to code in C\# for Unity. Download it here:   
+[https://visualstudio.microsoft.com/vs/community/](https://visualstudio.microsoft.com/vs/community/)
+{% endhint %}
+
+## Raycasting
 
 Raycasting is a powerful way \(just like collisions\) to get and update information about an object in Unity.
 
