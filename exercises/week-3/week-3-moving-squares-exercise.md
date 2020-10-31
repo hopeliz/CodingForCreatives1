@@ -1,5 +1,7 @@
 # Week 3 Moving Squares Exercise
 
+The steps below walk you through the Processing activity we did during Week 3. All code should allow you to copy and paste.
+
 ## Step 1: Create a Canvas
 
 Use _size\(\)_ in the setup\(\) code block to create your canvas using width and height values.
@@ -734,7 +736,7 @@ if (x + sizes[i] > width) {
 }
 ```
 
-Full code:
+## Full code
 
 ```java
 float[] sizes = { random(15, 75) };
