@@ -1,5 +1,9 @@
 # Week 5-A Moving Shapes
 
+The steps below walk you through a Processing activity we did during Week 5. All code should allow you to copy and paste.
+
+## Loops
+
 Loops are often used to control movement in some art programs. Here is an example of how a shape can move in Processing using a loop using the draw\(\) function's looping nature:
 
 ## Step 1:  Create the Shape

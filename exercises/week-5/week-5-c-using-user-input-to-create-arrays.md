@@ -1,5 +1,9 @@
 # Week 5-C Using User Input to Create Arrays
 
+The steps below walk you through continuing the Processing activity we did during Week 5. All code should allow you to copy and paste.
+
+## Starting Code
+
 Continuing the code from Week 5-B:
 
 ```java

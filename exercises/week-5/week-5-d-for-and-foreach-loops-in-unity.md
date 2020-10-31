@@ -1,5 +1,12 @@
 # Week 5-D For and Foreach Loops in Unity
 
+The steps below walk you through a Unity activity we did during Week 5. All code should allow you to copy and paste.
+
+{% hint style="info" %}
+Be sure to download Visual Studio to make it easier to code in C\# for Unity. Download it here:   
+[https://visualstudio.microsoft.com/vs/community/](https://visualstudio.microsoft.com/vs/community/)
+{% endhint %}
+
 ## Step 1: Create a New Unity Project
 
 As long as you use a version no more than about 2 years old \(2018-present\), this should all be similar.

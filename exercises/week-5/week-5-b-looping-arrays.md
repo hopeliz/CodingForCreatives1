@@ -1,5 +1,9 @@
 # Week 5-B Looping Arrays
 
+The steps below walk you through a Processing activity we did during Week 5. All code should allow you to copy and paste.
+
+## Arrays
+
 Arrays are one of the common ways loops are utilized.
 
 Why? 
