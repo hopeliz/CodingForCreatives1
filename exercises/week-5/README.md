@@ -1,6 +1,6 @@
 # Week 5
 
-Here are the step-by-step activities for Week 5. I apologize for this not working while in class.
+Here are the step-by-step activities for Week 5.
 
 1. [Moving Shapes](weel-5-a-moving-shapes.md) 
 2. [Looping Arrays](week-5-b-looping-arrays.md) 

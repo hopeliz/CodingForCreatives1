@@ -1,6 +1,6 @@
 # Week 6-A Snake
 
-This is the beginning of a snake game using a combination of elements you have learned about in class.
+This is the beginning of a snake game using a combination of elements you have learned about in class. This activity uses Processing and all code should allow you to copy and paste.
 
 ## Step 1: Create the Play Space and Player
 

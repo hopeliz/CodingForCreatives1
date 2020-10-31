@@ -1,8 +1,13 @@
 # Week 6-B 2D Character Movement \(Unity\)
 
-In this activity, you'll have a character walk left and right \(using a walk cycle animation\) and jump in Unity.
+In this activity, you'll have a character walk left and right \(using a walk cycle animation\) and jump in Unity.  All code should allow you to copy and paste.
 
 For information on how to create a new Unity project and what each of the windows/tabs mean, please see [Week 5-D Step 1](../week-5/week-5-d-for-and-foreach-loops-in-unity.md).
+
+{% hint style="info" %}
+Be sure to download Visual Studio to make it easier to code in C\# for Unity. Download it here:   
+[https://visualstudio.microsoft.com/vs/community/](https://visualstudio.microsoft.com/vs/community/)
+{% endhint %}
 
 ## Images
 

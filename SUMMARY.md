@@ -35,7 +35,6 @@
 * [Week 6](exercises/week-6/README.md)
   * [Week 6-A Snake](exercises/week-6/week-6-a-snake.md)
   * [Week 6-B 2D Character Movement \(Unity\)](exercises/week-6/week-6-b-2d-character-movement-unity.md)
-  * [Week 7 Starter Code \(really from Week 6\)](exercises/week-6/week-7-starter-code.md)
 * [Week 7](exercises/week-7/README.md)
   * [Week 7-A Mario Coin Catch](exercises/week-7/week-7-a-mario-coins-apple-catch.md)
   * [Week 7-B Raycasting Example](exercises/week-7/week-7-b-raycasting-example.md)
