@@ -1,6 +1,8 @@
 # Week 2 Mad Libs Exercise
 
-## Step 1: Start with the Starter Code
+The steps below walk you through a Processing activity we did during Week 2. All code should allow you to copy and paste.
+
+## Starter Code
 
 Copy the following code to paste in a blank Processing sketch. This will save you time.
 
@@ -40,28 +42,15 @@ void setup() {
 
 If played, the console shows this:
 
-```markup
-One (adjective 1) and (adjective 2) (time of day), (name) was delivered a(n) (object 1) 
-by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and 
-Wizardry. This seemed weird to (name), not only because the (object 1) could have been 
-sent through the regular mail, but because (pronoun) was/were(number higher than 20) 
-years old. 
+> One \(adjective 1\) and \(adjective 2\) \(time of day\), \(name\) was delivered a\(n\) \(object 1\) by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to \(name\), not only because the \(object 1\) could have been sent through the regular mail, but because \(pronoun\) was/were\(number higher than 20\) years old.   
+>   
+> The letter said classes start in \(whole number 1\) days and that \(pronoun\) has/have to go to Diagon Ally to pick up three things:  a set of textbooks that \(action 1\), a pet \(animal or creature\), and \(whole number 2\) \(type of container 1\)s of \(measurement number\)-ounce of potion starter base \(also known as \(liquid\)\). \(type of container 2\)s are provided. \(name\) was unfamiliar with Diagon Ally and wandered the town of \(object 2\)ville. \(Pronoun\) easily found a stray \(animal\), which \(pronoun\) named \(adjective  3\)\(object 3\) and it was the most \(adjective 4\) \(animal\) \(pronoun\) had/have ever seen!   
+>   
+> \(Name\) couldn't find any potion starter base - especially not the \(total number of ounces\) ounces needed, but luckily found a textbook that \(action\)ed.   
+>   
+> Despite the struggles, \(pronoun\) made friends with other witches, wizards, \(type of person 1\)s , and \(type of person 2\)s andexcelled in school.
 
-The letter said classes start in (whole number 1) days and that (pronoun) has/have to 
-go to Diagon Ally to pick up three things:  a set of textbooks that (action 1), a pet 
-(animal or creature), and (whole number 2) (type of container 1)s of (measurement 
-number)-ounce of potion starter base (also known as (liquid)). (type of container 2)s 
-are provided. (name) was unfamiliar with Diagon Ally and wandered the town of (object 
-2)ville. (Pronoun) easily found a stray (animal), which (pronoun) named (adjective  
-3)(object 3) and it was the most (adjective 4) (animal) (pronoun) had/have ever seen! 
-(Name) couldn't find any potion starter base - especially not the (total number of 
-ounces) ounces needed, but luckily found a textbook that (action)ed. 
-
-Despite the struggles, (pronoun) made friends with other witches, wizards, (type of 
-person 1)s , and (type of person 2)s andexcelled in school.
-```
-
-## Step 2: Create Needed Variables
+## Step 1: Create Needed Variables
 
 Variables in Processing need to have their data type declared along with the name.
 
@@ -97,7 +86,7 @@ String typeOfContainer2 = "tupperware";
 In Week 3, we will look at ways to make one variable hold all 4 adjectives, all 3 objects, etc. making long lists of variables like this shorter and easier to access.
 {% endhint %}
 
-## Step 3: Add the Variables to the Final Output Message
+## Step 2: Add the Variables to the Final Output Message
 
 Replace the areas in the parentheses with the variable.
 
@@ -204,7 +193,7 @@ Certain notation can be used within strings to accomplish things like creating a
 **\'** = apostrophe \(to use when single quotes are used for a string\)  
 **\"** = quotation marks \(to use when double quotes are used for a string\)
 
-## **Step 4: Polishing It a Little**
+## **Step 3: Polishing It a Little**
 
 Let's make the beginning of some of the sentences have a capital letter instead of lowercase that the variable is in.
 

@@ -1,5 +1,7 @@
 # Week 2 Star Wars Name Exercise
 
+The steps below walk you through a Processing activity we did during Week 2. All code should allow you to copy and paste.
+
 ## The Goal
 
 To find out your "Star Wars Name."
