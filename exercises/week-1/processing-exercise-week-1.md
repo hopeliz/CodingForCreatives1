@@ -4,13 +4,10 @@ description: Below walks through the code updating it in ways we did on Thursday
 
 # Week 1 Processing Exercise
 
-## Intro
-
-The steps below walk you through the Processing activity we did. All code should allow you to copy and paste.
+The steps below walk you through the Processing activity we did during Week 1. All code should allow you to copy and paste.
 
 ## Step 1: Create a Canvas
 
-{% hint style="info" %}
 Remember: 
 
 * setup\(\) runs once on the first frame, draw\(\) runs once per frame until it's stopped
@@ -18,7 +15,6 @@ Remember:
   * Any opening parenthesis, curly bracket, and quotation mark need a closing one
   * Close the blocks within before the containing blocks
 * End lines of code with a semicolon
-{% endhint %}
 
 Use the size\(width, height\) function within the { } of setup\(\)
 
