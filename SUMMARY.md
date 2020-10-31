@@ -38,6 +38,7 @@
 * [Week 7](exercises/week-7/README.md)
   * [Week 7-A Mario Coin Catch \(Unity\)](exercises/week-7/week-7-a-mario-coins-apple-catch.md)
   * [Week 7-B Raycasting Example \(Unity\)](exercises/week-7/week-7-b-raycasting-example.md)
+* [TouchDesigner Exercises](exercises/touchdesigner-exercises.md)
 
 ## Glossary and Terms <a id="glossary"></a>
 
