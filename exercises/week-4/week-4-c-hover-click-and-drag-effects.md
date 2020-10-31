@@ -1,8 +1,10 @@
 # Week 4-C Hover, Click, and Drag Effects
 
-{% hint style="info" %}
+The steps below walk you through continuing the Processing activity we did during Week 4. All code should allow you to copy and paste.
+
 This page uses the variables and setup code of Week 4-B.
-{% endhint %}
+
+## Starting Code
 
 Below is starting code from Week 4-B:
 

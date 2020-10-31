@@ -1,5 +1,7 @@
 # Week 4-A Movement Using If Statements
 
+The steps below walk you through the Processing activity we did during Week 4. All code should allow you to copy and paste.
+
 ## Step 1: Create a Canvas and Player
 
 Create a canvas in setup\(\) and a "player" that will move - I'm using a square here.

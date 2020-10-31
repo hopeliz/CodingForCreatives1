@@ -1,5 +1,9 @@
 # Week 4-B Boundaries Using If Statements
 
+The steps below walk you through continuing the Processing activity we did during Week 4. All code should allow you to copy and paste.
+
+## Starting Code
+
 This page is a continuation of Week 4-A. Below is the code:
 
 ```java
