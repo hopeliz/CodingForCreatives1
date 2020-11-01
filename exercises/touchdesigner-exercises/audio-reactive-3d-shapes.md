@@ -207,7 +207,7 @@ This will put the Python expression that references the Math CHOP operator and t
 
 
 
-Step 7: Smooth It Out
+## Step 7: Smooth It Out
 
 With Audio, you'll notice the changes can be jumpy - this has something to do with the way the audio data comes through with quick drops to zero and back.
 
