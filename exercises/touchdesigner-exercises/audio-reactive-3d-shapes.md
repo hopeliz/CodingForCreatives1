@@ -121,6 +121,22 @@ Select the Math CHOP. Select the Range tab in the parameters.
 
 Have the range go from 0 to 0.3 and 0 to 1.
 
+## Step 4: Reference the Audio Data
+
+Now, we want the Roughness to reference the Math CHOP.
+
+Click the "Viewer Active" toggle on the bottom right of the operator to make the operator appear to change when you hover over it.
+
+Select the Noise SOP to bring up its parameters.
+
+Click and drag the Math TOP operator to the value for Roughness and let go. Select **CHOP Reference**.
+
+This will put the Python expression that references the Math CHOP operator and the channel named "chan1".
+
+![](../../.gitbook/assets/week9bs3%20%281%29.gif)
+
+You should now be able to see a change in the blob as you make noises!
+
 
 
 
