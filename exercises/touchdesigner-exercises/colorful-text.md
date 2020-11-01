@@ -14,17 +14,17 @@ The goal of this activity is to create text that has an interesting random color
 
 ### Add the first text operator
 
-Press the Tab key or right-click and select **Add New Operator** to bring up the OP Create Dialog.
+Press the Tab key or right-click and select **Add Operator** to bring up the OP Create Dialog.
 
 2D Text is a flat image, so we want the purple texture operators \(TOPs\).
 
 Search for and select the Text TOP:
 
-![](../../.gitbook/assets/image%20%28210%29.png)
+![](../../.gitbook/assets/image%20%28215%29.png)
 
 Click to place the operator. 
 
-![Default Text TOP and its parameters](../../.gitbook/assets/image%20%28204%29.png)
+![Default Text TOP and its parameters](../../.gitbook/assets/image%20%28205%29.png)
 
 {% hint style="info" %}
 If you don't see the parameters when you click on the operator/node, press the P key or right-click and select **Parameters** to toggle the window.
@@ -34,23 +34,23 @@ If you don't see the parameters when you click on the operator/node, press the P
 
 The default resolution \(under the Common tab\) is 256 x 256. 
 
-![](../../.gitbook/assets/image%20%28209%29.png)
+![](../../.gitbook/assets/image%20%28214%29.png)
 
 We want this to be the resolution of our screen \(or the largest one we can do with a free version: 1280 x 720\).
 
 Use the drop down arrow to the right of the Resolution to select the resolution you want or type it in.
 
-![](../../.gitbook/assets/image%20%28208%29.png)
+![](../../.gitbook/assets/image%20%28212%29.png)
 
 This makes the text in the operator small, but we can increase the text size.
 
-![](../../.gitbook/assets/image%20%28214%29.png)
+![](../../.gitbook/assets/image%20%28223%29.png)
 
 ### Adjust the font parameters
 
 Under the Font tab, you can update the font face, style, size, alignment, etc. As you update the parameters, you can see how it looks in the operator.
 
-![](../../.gitbook/assets/image%20%28211%29.png)
+![](../../.gitbook/assets/image%20%28218%29.png)
 
 To change the text, update the Text parameter under the Text tab.
 
@@ -60,7 +60,7 @@ Once you're happy with the style, copy the operator \(CTRL+C or right-click and 
 
 Update the text and font to match your needs.
 
-![](../../.gitbook/assets/image%20%28223%29.png)
+![](../../.gitbook/assets/image%20%28237%29.png)
 
 ## Step 2: Position Text
 
@@ -74,11 +74,11 @@ Let's use a Transform TOP!
 
 Since the text is purple, we should stay with that color. On each output, right-click and select Transform.
 
-![](../../.gitbook/assets/image%20%28219%29.png)
+![](../../.gitbook/assets/image%20%28233%29.png)
 
 Click to place the operator. It will use the resolution of the input.
 
-![](../../.gitbook/assets/image%20%28220%29.png)
+![](../../.gitbook/assets/image%20%28234%29.png)
 
 Select the Transform TOP of the text you want to position and change the parameters for Translate and Rotate to position the section of text.
 
@@ -92,7 +92,7 @@ It will be easier to see the positioning if we have the text sections all in one
 
 In an empty space to the right of the operators, press TAB or right-click and select **Add Operator** to bring up the OP Create Dialog. Search for and select the Composite TOP.
 
-![](../../.gitbook/assets/image%20%28207%29.png)
+![](../../.gitbook/assets/image%20%28211%29.png)
 
 Click to place the operator.
 
@@ -104,13 +104,13 @@ Left-click and drag from one of the Transform TOP outputs to the input of the Co
 
 The Composite TOP's Operation parameter is Multiply by default, so the operator will appear blank. Change the Operation to Over to see the text. This is like using a Blending Mode with layers in Photoshop.
 
-![](../../.gitbook/assets/image%20%28212%29.png)
+![](../../.gitbook/assets/image%20%28221%29.png)
 
 ## Step 4: Seeing a Display
 
 You can see a display of a texture operator \(TOP\) by toggling the blue Display dot on the bottom right of the operator.
 
-![](../../.gitbook/assets/image%20%28213%29.png)
+![](../../.gitbook/assets/image%20%28222%29.png)
 
 But to see a more accurate view of a final display, use a Null and Out TOP.
 
@@ -120,11 +120,11 @@ Right-click on the Composite TOP output and add a Null TOP.
 
 The project is looking for a texture operator named "out1" by default to display. Add this by right-clicking on the output of the Null TOP and add an Out TOP.
 
-![](../../.gitbook/assets/image%20%28215%29.png)
+![](../../.gitbook/assets/image%20%28227%29.png)
 
 Now, you can preview what this looks like by clicking the Open Viewer button at the top left \(looks like a square\).
 
-![](../../.gitbook/assets/image%20%28216%29.png)
+![](../../.gitbook/assets/image%20%28229%29.png)
 
 This will make it easier to see your text position.
 
@@ -136,7 +136,7 @@ We could use a Constant TOP for a single color, but let's go for a randomized ra
 
 Below the text, add a standalone Noise TOP.
 
-![](../../.gitbook/assets/image%20%28218%29.png)
+![](../../.gitbook/assets/image%20%28232%29.png)
 
 It defaults to a 256 x 256 random monochrome image.
 
@@ -144,13 +144,13 @@ It defaults to a 256 x 256 random monochrome image.
 
 Bump up the Resolution to match that of our project using the Resolution parameter under the Common tab.
 
-![](../../.gitbook/assets/image%20%28205%29.png)
+![](../../.gitbook/assets/image%20%28209%29.png)
 
 ### Switch to Color
 
 Under the Noise tab, turn off Monochrome.
 
-![](../../.gitbook/assets/image%20%28217%29.png)
+![](../../.gitbook/assets/image%20%28230%29.png)
 
 You can change the look by changing the values, but it is static.
 
@@ -182,5 +182,5 @@ Then, click and drag from the output of the new Null TOP to the line going into 
 
 By default, where it is transparent will be black, but if you want it DEFINATELY black, the second Null TOP can be layered over a black Constant TOP \(remember to bump up the resolution\) with another Composite TOP \(use the Over operation\). 
 
-![](../../.gitbook/assets/image%20%28206%29.png)
+![](../../.gitbook/assets/image%20%28210%29.png)
 

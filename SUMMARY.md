@@ -40,6 +40,7 @@
   * [Week 7-B Raycasting Example \(Unity\)](exercises/week-7/week-7-b-raycasting-example.md)
 * [TouchDesigner Exercises](exercises/touchdesigner-exercises/README.md)
   * [Colorful Text](exercises/touchdesigner-exercises/colorful-text.md)
+  * [Audio-Reactive 3D Shapes](exercises/touchdesigner-exercises/audio-reactive-3d-shapes.md)
 
 ## Glossary and Terms <a id="glossary"></a>
 
