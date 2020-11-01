@@ -23,19 +23,19 @@ The first two are Component operators or COMPs.
 
 Press the TAB key or right-click and select **Add Operator** to bring up the OP Create Dialog. Go to the COMP tab. Search for and select the Light COMP.
 
-![](../../.gitbook/assets/image%20%28237%29.png)
+![](../../.gitbook/assets/image%20%28239%29.png)
 
 Click to place.
 
 Do the same with a Camera COMP.
 
-![](../../.gitbook/assets/image%20%28226%29.png)
+![](../../.gitbook/assets/image%20%28227%29.png)
 
 For the Geometry, it's easier to start with your shape, found in the blue surface operators or SOPs.
 
 Bring up the OP Create Dialog and select the SOP tab. Search for and select the Sphere SOP.
 
-![](../../.gitbook/assets/image%20%28223%29.png)
+![](../../.gitbook/assets/image%20%28224%29.png)
 
 Click to place.
 
@@ -45,13 +45,13 @@ Right-click on the output of the Sphere SOP and select **Add Operator**. Click t
 
 This makes it so blue surface operators \(SOPs\) can connect to the Geometry COMP.
 
-![](../../.gitbook/assets/image%20%28242%29.png)
+![](../../.gitbook/assets/image%20%28244%29.png)
 
 Lastly, bring up the OP Create Dialog and click on the purple texture operator \(TOP\) tab. Search for and select the Render TOP.
 
 This automatically finds and brings in the COMPs to create a flat scene to display.
 
-![](../../.gitbook/assets/image%20%28236%29.png)
+![](../../.gitbook/assets/image%20%28238%29.png)
 
 To have this appear easily in a separate window, let's use a Null and Out texture operator \(TOP\).
 
@@ -65,7 +65,7 @@ The project is looking for a texture operator named "out1" by default to display
 
 Now, you can preview what this looks like by clicking the Open Viewer button at the top left \(looks like a square\).
 
-![](../../.gitbook/assets/image%20%28240%29.png)
+![](../../.gitbook/assets/image%20%28242%29.png)
 
 ## Step 2: Add Some Noise \(Randomness\)
 
@@ -75,7 +75,7 @@ Move the Sphere SOP a little to the left to make room.
 
 Right-click on the connected line and select **Insert Operator**. Under the blue SOP options, search and select the Noise SOP.
 
-![](../../.gitbook/assets/image%20%28227%29.png)
+![](../../.gitbook/assets/image%20%28229%29.png)
 
 Click to place.
 
@@ -95,15 +95,15 @@ To bring data in from a microphone, add an Audio Device In CHOP.
 
 Make some noise! The red waveform is the audio the microphone is picking up.
 
-![](../../.gitbook/assets/image%20%28235%29.png)
+![](../../.gitbook/assets/image%20%28237%29.png)
 
 To turn this into something that can be used as values, right-click on the output of the Audio Device In CHOP and add an Analyze CHOP.
 
-![](../../.gitbook/assets/image%20%28224%29.png)
+![](../../.gitbook/assets/image%20%28225%29.png)
 
 The default function is Average, but I've noticed the best values come from the RMS Power function.
 
-![](../../.gitbook/assets/image%20%28239%29.png)
+![](../../.gitbook/assets/image%20%28241%29.png)
 
 The values seem to go from just above 0 to 0.3.
 
@@ -145,7 +145,7 @@ Create a set of colors using Constant TOPs near the right side/purple end of the
 
 Start by adding one Constant TOP.
 
-![](../../.gitbook/assets/image%20%28233%29.png)
+![](../../.gitbook/assets/image%20%28235%29.png)
 
 Bump up the resolution to match the screen or current resolution under the Common tab.
 
@@ -153,7 +153,7 @@ Bump up the resolution to match the screen or current resolution under the Commo
 
 Copy \(CTRL+C or right-click and select Copy\) and Paste \(CTRL+V or right-click and select Paste\) six times.
 
-![](../../.gitbook/assets/image%20%28221%29.png)
+![](../../.gitbook/assets/image%20%28222%29.png)
 
 For each, select a different color under the Constant tab. 
 
@@ -165,7 +165,7 @@ I generally choose colors in the order of the rainbow - an intuitive order many 
 
 Add a standalone Switch TOP. A **Switch** operator is like a selector that selects from an array or list of connected operators. The cool thing about a Switch TOP is that it can blend two operators.
 
-![](../../.gitbook/assets/image%20%28234%29.png)
+![](../../.gitbook/assets/image%20%28236%29.png)
 
 Right-click and drag to select the Constant TOPs. Left-click and drag from the output of one of the Constant TOPs to the input of the Switch TOP. This will connect all the selected TOPs.
 
@@ -177,7 +177,7 @@ Turn on **Blend between Inputs** and see how it has a blend between each color.
 
 Add a standalone Composite TOP.
 
-![](../../.gitbook/assets/image%20%28212%29.png)
+![](../../.gitbook/assets/image%20%28213%29.png)
 
 Connect the Switch TOP and the Null TOP to the input of the Composite TOP. This will add the color.
 
@@ -185,13 +185,13 @@ Right-click on the output of the Composite TOP and add a Null TOP as a snapshot.
 
 Connect this new Null TOP \("null2"\) to the Out TOP \(replacing the line\).
 
-![](../../.gitbook/assets/image%20%28214%29.png)
+![](../../.gitbook/assets/image%20%28215%29.png)
 
 ## Step 6: Connect the Audio Data to the Color
 
 Since we have a Math CHOP already normalizing the range from 0 to 1, add another Math CHOP just for the color with the range "mapped" from 0 to 1 to 0 to 6.
 
-![](../../.gitbook/assets/image%20%28220%29.png)
+![](../../.gitbook/assets/image%20%28221%29.png)
 
 This 0 to 6 range will control the index value of the Switch TOP.
 
@@ -213,9 +213,37 @@ With Audio, you'll notice the changes can be jumpy - this has something to do wi
 
 To smooth this out, add a Lag CHOP before the first Math CHOP. Insert the Lag CHOP by right-clicking between the Analyze CHOP and "math1" and selecting **Insert Operator**.
 
-![](../../.gitbook/assets/image%20%28229%29.png)
+![](../../.gitbook/assets/image%20%28231%29.png)
 
 This defaults to 0.2 seconds and is pretty good at that value, but play around with it to get the effect you want.
+
+## Step 8: Try Moving a Cube
+
+Instead of a sphere, let's try a cube.
+
+Create a standalone Box SOP near the Sphere SOP.
+
+![](../../.gitbook/assets/image%20%28250%29.png)
+
+Right-click on the output of the Box SOP and add a Transform SOP so we can use audio to move the cube around.
+
+![](../../.gitbook/assets/image%20%28228%29.png)
+
+Using the click-and-drag method as before, reference the values of the "math1" operator for all three axes of the Scale parameter of the Transform SOP.
+
+![](../../.gitbook/assets/week9bs8.gif)
+
+For rotation, let's add a third Math CHOP that takes the "math1" data and "maps" it or re-ranges it from 0-180. The easiest way is to add a standalone Math CHOP and left-click and drag from the output of "math1" to the input of the new Math CHOP \("math3"\).
+
+![](../../.gitbook/assets/image%20%28248%29.png)
+
+Reference the channel "chan1" in the operator "math3" using the click-and-drag method or by typing the expression in for all three axes of the Transform SOP.
+
+![](../../.gitbook/assets/week9bs8x.gif)
+
+Now, connect the Transform SOP to the Geometry COMP, replacing the current connection.
+
+![](../../.gitbook/assets/image%20%28212%29.png)
 
 
 
