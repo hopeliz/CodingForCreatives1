@@ -13,6 +13,7 @@
   * [Processing Example](templates/movement-code/processing-example.md)
   * [Unity Example \(3D\)](templates/movement-code/unity-example.md)
   * [Unity Example \(2D Platformer\)](templates/movement-code/unity-example-2d-platformer.md)
+* [Connecting Platforms](templates/connecting-platforms.md)
 
 ## Exercises
 
