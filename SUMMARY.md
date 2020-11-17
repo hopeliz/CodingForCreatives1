@@ -42,6 +42,7 @@
 * [TouchDesigner Exercises](exercises/touchdesigner-exercises/README.md)
   * [Colorful Text](exercises/touchdesigner-exercises/colorful-text.md)
   * [Audio-Reactive 3D Shapes](exercises/touchdesigner-exercises/audio-reactive-3d-shapes.md)
+  * [TouchOSC](exercises/touchdesigner-exercises/touchosc.md)
 
 ## Glossary and Terms <a id="glossary"></a>
 
