@@ -20,8 +20,6 @@ In your parameters, click the arrow to the right of the field for Local Address 
 If you do not see the parameters, press the P key to toggle it on.
 {% endhint %}
 
-Please see the next document to find your I.P. address if it doesn't appear as an option.
-
 ## Step 2: Set Up TouchOSC
 
 Open the app and tap "OSC" to access the communication options. Note: You might have "Not configured" the first time you use the app instead of an IP address.
