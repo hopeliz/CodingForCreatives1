@@ -97,3 +97,9 @@
 * [Popular SOPs](touchdesigner-info/popular-sops.md)
 * [Popular DATs](touchdesigner-info/popular-dats.md)
 
+## Arduino Info
+
+* [Arduinos!](arduino-info/arduinos.md)
+* [The Parts](arduino-info/the-parts.md)
+* [The Setup](arduino-info/the-setup.md)
+
