@@ -5,8 +5,8 @@
 |  |  |
 | :--- | :--- |
 | ![](../../.gitbook/assets/image%20%28288%29.png)  | Circuit Board |
-| ![](../../.gitbook/assets/image%20%28301%29.png)  | Breadboard |
-| ![](../../.gitbook/assets/image%20%28303%29.png)  | Jumper Cables |
+| ![](../../.gitbook/assets/image%20%28303%29.png)  | Breadboard |
+| ![](../../.gitbook/assets/image%20%28305%29.png)  | Jumper Cables |
 
 ## Buzzer
 
@@ -14,12 +14,12 @@
 
 |  |  |
 | :--- | :--- |
-| ![](../../.gitbook/assets/image%20%28295%29.png)  | Buzzer |
+| ![](../../.gitbook/assets/image%20%28297%29.png)  | Buzzer |
 | ![](../../.gitbook/assets/image%20%28284%29.png)  | 100 Ohm Resistor |
 
 ### Diagram
 
-![The data \(yellow\) wire is connected to digital pin 9.](../../.gitbook/assets/image%20%28304%29.png)
+![The data \(yellow\) wire is connected to digital pin 9.](../../.gitbook/assets/image%20%28306%29.png)
 
 ### Code
 
@@ -198,7 +198,7 @@ This is a special LED that you can use 0-255 color values to get any color of th
 
 Note: This diagram is for a Cathode RGB LED where the 2nd connector is the ground \(negative\) connection.
 
-![The blue wire is connected to pin 9, green to pin 10, and red to pin 11.](../../.gitbook/assets/image%20%28299%29.png)
+![The blue wire is connected to pin 9, green to pin 10, and red to pin 11.](../../.gitbook/assets/image%20%28301%29.png)
 
 ## Code
 

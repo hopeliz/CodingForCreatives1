@@ -10,13 +10,13 @@ In the Arduino program, set up your serial connection.
 
 Go to Tools &gt; Board &gt; Arduino AVR Boards &gt; Arduino Uno \(or whatever you have\)
 
-![](../../.gitbook/assets/image%20%28302%29.png)
+![](../../.gitbook/assets/image%20%28304%29.png)
 
-![](../../.gitbook/assets/image%20%28297%29.png)
+![](../../.gitbook/assets/image%20%28299%29.png)
 
 Once you have the Arduino connected via USB, you can find and select the port that is needed under Tools &gt;  Port &gt; COM\(whatever number shows the connection\)
 
-![](../../.gitbook/assets/image%20%28297%29.png)
+![](../../.gitbook/assets/image%20%28299%29.png)
 
 ## Viewing the Info
 

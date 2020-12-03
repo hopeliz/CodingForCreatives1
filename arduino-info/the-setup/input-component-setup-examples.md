@@ -5,8 +5,8 @@
 |  |  |
 | :--- | :--- |
 | ![](../../.gitbook/assets/image%20%28288%29.png)  | Circuit Board |
-| ![](../../.gitbook/assets/image%20%28301%29.png)  | Breadboard |
-| ![](../../.gitbook/assets/image%20%28303%29.png)  | Jumper Cables |
+| ![](../../.gitbook/assets/image%20%28303%29.png)  | Breadboard |
+| ![](../../.gitbook/assets/image%20%28305%29.png)  | Jumper Cables |
 
 ## Photoresistor
 
@@ -22,7 +22,7 @@
   <tbody>
     <tr>
       <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (296).png" alt/>
+        <img src="../../.gitbook/assets/image (298).png" alt/>
       </td>
       <td style="text-align:left">
         <p>Photoresistor</p>
@@ -88,7 +88,7 @@ This sensor works like a bat or a clicker from _The Last of Us_ to detect object
   <tbody>
     <tr>
       <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (294).png" alt/>
+        <img src="../../.gitbook/assets/image (296).png" alt/>
       </td>
       <td style="text-align:left">
         <p>Ultrasonic Sensor</p>

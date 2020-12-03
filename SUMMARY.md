@@ -105,4 +105,5 @@
   * [Using the Serial Connection](arduino-info/the-setup/using-the-serial-connection.md)
   * [Output Component Setup Examples](arduino-info/the-setup/output-component-setup-examples.md)
   * [Input Component Setup Examples](arduino-info/the-setup/input-component-setup-examples.md)
+  * [Create a Night Light](arduino-info/the-setup/create-a-night-light.md)
 
