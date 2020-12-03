@@ -21,7 +21,7 @@ The order usually goes:
 
 ![](../../.gitbook/assets/image%20%28300%29.png)
 
-This technically completes the circuit.
+This would complete the circuit if there was something connecting the positive and negative rails.
 
 ### Adding Components
 
