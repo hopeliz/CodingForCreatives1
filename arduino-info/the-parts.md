@@ -10,19 +10,19 @@ These are the things that make things look like movie bombs but really just move
 
 Wire color DOES NOT matter. However, I tend to always use red wires for the positive charge and black or blue for the negative charge \(ground\).
 
-![Male-to-male jumper wires](../.gitbook/assets/image%20%28298%29.png)
+![Male-to-male jumper wires](../.gitbook/assets/image%20%28301%29.png)
 
 ### Male-to-Male Wires
 
 Male-to-male wires are the most common due to Arduino circuit boards and breadboards having holes.
 
-![Female-to-female jumper wires](../.gitbook/assets/image%20%28291%29.png)
+![Female-to-female jumper wires](../.gitbook/assets/image%20%28292%29.png)
 
 ### Female-to-Female Wires
 
 Female-to-female wires help connect wires with a male end and to sensors and components.
 
-![Female-to-male jumper wires](../.gitbook/assets/image%20%28296%29.png)
+![Female-to-male jumper wires](../.gitbook/assets/image%20%28299%29.png)
 
 ### Female-to-Male Wires
 

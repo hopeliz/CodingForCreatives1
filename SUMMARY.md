@@ -103,4 +103,5 @@
 * [The Parts](arduino-info/the-parts.md)
 * [The Setup](arduino-info/the-setup/README.md)
   * [Output Component Setup Examples](arduino-info/the-setup/output-component-setup-examples.md)
+  * [Input Component Setup Examples](arduino-info/the-setup/input-component-setup-examples.md)
 

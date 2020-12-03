@@ -5,21 +5,21 @@
 |  |  |
 | :--- | :--- |
 | ![](../../.gitbook/assets/image%20%28288%29.png)  | Circuit Board |
-| ![](../../.gitbook/assets/image%20%28297%29.png)  | Breadboard |
-| ![](../../.gitbook/assets/image%20%28298%29.png)  | Jumper Cables |
+| ![](../../.gitbook/assets/image%20%28300%29.png)  | Breadboard |
+| ![](../../.gitbook/assets/image%20%28301%29.png)  | Jumper Cables |
 
-## Buzzer Setup and Code
+## Buzzer
 
 ### Additional Supplies
 
 |  |  |
 | :--- | :--- |
-| ![](../../.gitbook/assets/image%20%28293%29.png)  | Buzzer |
+| ![](../../.gitbook/assets/image%20%28295%29.png)  | Buzzer |
 | ![](../../.gitbook/assets/image%20%28284%29.png)  | 100 Ohm Resistor |
 
 ### Diagram
 
-![The data \(yellow\) wire is connected to digital pin 9.](../../.gitbook/assets/image%20%28299%29.png)
+![The data \(yellow\) wire is connected to digital pin 9.](../../.gitbook/assets/image%20%28302%29.png)
 
 ### Code
 
@@ -65,7 +65,7 @@ void loop() {
     </tr>
     <tr>
       <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (290).png" alt/>
+        <img src="../../.gitbook/assets/image (291).png" alt/>
       </td>
       <td style="text-align:left">220 Ohm Resistor</td>
     </tr>
@@ -122,7 +122,7 @@ This example shows using and controlling two separate LEDs as an example of mult
     </tr>
     <tr>
       <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (290).png" alt/>
+        <img src="../../.gitbook/assets/image (291).png" alt/>
       </td>
       <td style="text-align:left">2 - 220 Ohm Resistors</td>
     </tr>
@@ -187,7 +187,7 @@ This is a special LED that you can use 0-255 color values to get any color of th
     </tr>
     <tr>
       <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (290).png" alt/>
+        <img src="../../.gitbook/assets/image (291).png" alt/>
       </td>
       <td style="text-align:left">3 - 220 Ohm Resistors</td>
     </tr>
@@ -198,7 +198,7 @@ This is a special LED that you can use 0-255 color values to get any color of th
 
 Note: This diagram is for a Cathode RGB LED where the 2nd connector is the ground \(negative\) connection.
 
-![The blue wire is connected to pin 9, green to pin 10, and red to pin 11.](../../.gitbook/assets/image%20%28295%29.png)
+![The blue wire is connected to pin 9, green to pin 10, and red to pin 11.](../../.gitbook/assets/image%20%28298%29.png)
 
 ## Code
 
