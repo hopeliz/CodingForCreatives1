@@ -19,7 +19,7 @@ The order usually goes:
 2. Connect a wire from 3.3V or 5V pin \(i/o hole\) on the circuit board to the red positive rail on the breadboard.
 3. Connect an additional wire from the blue negative rail to the ground \(GND\) pin on the circuit board.
 
-![](../../.gitbook/assets/image%20%28297%29.png)
+![](../../.gitbook/assets/image%20%28298%29.png)
 
 This technically completes the circuit.
 
@@ -57,7 +57,7 @@ The image above has the same positive and negative \(ground\) connections but is
 
 Some simple setups don't need a positive wire. The data connection also serves as the positive charge.
 
-![](../../.gitbook/assets/image%20%28303%29.png)
+![](../../.gitbook/assets/image%20%28305%29.png)
 
 Notice that only the negative rail is created here and the positive charge is coming through the connection from the positive side of the LED component to pin 9 on the circuit board. This connection completes the circuit AND controls the component.
 

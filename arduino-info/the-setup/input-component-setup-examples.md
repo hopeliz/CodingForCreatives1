@@ -5,8 +5,8 @@
 |  |  |
 | :--- | :--- |
 | ![](../../.gitbook/assets/image%20%28288%29.png)  | Circuit Board |
-| ![](../../.gitbook/assets/image%20%28300%29.png)  | Breadboard |
-| ![](../../.gitbook/assets/image%20%28301%29.png)  | Jumper Cables |
+| ![](../../.gitbook/assets/image%20%28301%29.png)  | Breadboard |
+| ![](../../.gitbook/assets/image%20%28303%29.png)  | Jumper Cables |
 
 ## Photoresistor
 
