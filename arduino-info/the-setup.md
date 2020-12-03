@@ -17,12 +17,15 @@ The order usually goes:
 
 1. Power source \(computer, wall outlet, or battery component\) to USB 2.0 connection or power port on circuit board
 2. Wire from 3.3V or 5V pin \(i/o hole\) on the circuit board to the red positive rail on the breadboard
-3. Second wire from red positive rail on the breadboard to a numbered electrical contact strip on the breadboard
-4. Component's positive pin \(often marked with a + or Vcc\) in the same electrical contact strip on the breadboard
-5. Component's data pins \(this will either get or send data\) in separate electrical contact strips \(optional\)
+3. Second wire from red positive rail on the breadboard to a numbered electrical contact strip on the breadboard \(see note on number 5\)
+4. Component's positive pin \(often marked with a + or Vcc\) in the same electrical contact strip on the breadboard \(see note on number 5\)
+5. Component's data pins \(this will either get or send data\) in separate electrical contact strips
+   1. **Note:** this data connection sometimes replaces the positive pins/wire connection \(please see diagrams\)
 6. Component's negative \(ground or GND or -\) pin in a separate electrical contact strip
 7. Third wire from the same contact strip as the component's GND pin to the blue negative \(ground\) rail on the breadboard
 8. Fourth wire from the blue negative \(ground\) rail on the breadboard to the gound \(GND\) pin \(i/o hole\) on the circuit board.
+
+
 
 #### Data Pins on Components
 
