@@ -4,27 +4,29 @@ This page includes information about the parts that generally make up an Arduino
 
 Note: The language and explanations here are my own and might sound different than other websites, but hopefully, it gets you where you need to go to at least start a project.
 
-## 1. Wires
+## 1. Jumper Wires
 
 These are the things that make things look like movie bombs but really just move electricity from one thing to another.
 
 Wire color DOES NOT matter. However, I tend to always use red wires for the positive charge and black or blue for the negative charge \(ground\).
 
-Image
+![Male-to-male jumper wires](../.gitbook/assets/image%20%28298%29.png)
 
-Male-to-male wire
+### Male-to-Male Wires
 
 Male-to-male wires are the most common due to Arduino circuit boards and breadboards having holes.
 
-Image
+![Female-to-female jumper wires](../.gitbook/assets/image%20%28291%29.png)
 
-Female-to-female wire
+### Female-to-Female Wires
 
 Female-to-female wires help connect wires with a male end and to sensors and components.
 
-Male-to-female wire
+![Female-to-male jumper wires](../.gitbook/assets/image%20%28296%29.png)
 
-Male-to-female wires are great for connecting directly from the circuit board to a sensor or component.
+### Female-to-Male Wires
+
+Female-to-male wires are great for connecting directly from the circuit board to a sensor or component.
 
 ## 2. Breadboard
 
