@@ -15,6 +15,12 @@
   * [Unity Example \(2D Platformer\)](templates/movement-code/unity-example-2d-platformer.md)
 * [Connecting Platforms](templates/connecting-platforms.md)
 
+## Useful Links
+
+* [Share & Show Off](useful-links/share-and-show-off.md)
+* [Software and Apps](useful-links/software-and-apps.md)
+* [Free & Affordable Game Assets](useful-links/free-and-affordable-game-assets.md)
+
 ## Exercises
 
 * [Week 1](exercises/week-1/README.md)
