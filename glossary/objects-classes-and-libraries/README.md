@@ -2,7 +2,7 @@
 
 ## Objects
 
-When a programmer calls something an "object," it is usually talking about a self-contained set of code, usually its own file with specific features and actions that is accessible by other objects and code.
+When a programmer calls something an "object," it is usually talking about a self-contained set of code, usually its own file with specific features and actions that are accessible by other objects and code.
 
 Sometimes it's abstract - like a "book" in a text adventure game where only some options work for when the user has a book. The chapters would be part of the book object. It could have functions like opening, closing, turning pages, etc.
 
