@@ -4,8 +4,6 @@ Many if statements compare values
 
 Use the operators below to compare values:
 
-_Almost everything by Python:_
-
 <table>
   <thead>
     <tr>
@@ -26,11 +24,11 @@ _Almost everything by Python:_
     </tr>
     <tr>
       <td style="text-align:left">is not equal to</td>
-      <td style="text-align:left">!=</td>
+      <td style="text-align:left">!= or &lt;&gt;</td>
       <td style="text-align:left">
         <p>if (name != &quot;Alan&quot;) { ... }</p>
         <p>if (num != 5) { ... }</p>
-        <p>if num != 2: ...</p>
+        <p>if num != 2: ... or if num &lt;&gt;2: ...</p>
       </td>
     </tr>
     <tr>
@@ -62,14 +60,12 @@ _Almost everything by Python:_
       <td style="text-align:left">&gt;=</td>
       <td style="text-align:left">
         <p>if (width &gt;= 6.2) { ... }</p>
-        <p>if width &gt;= 6.2: ...</p>
+        <p>if width &gt;= 6.2: ...<em><br /></em>
+        </p>
       </td>
     </tr>
   </tbody>
 </table>
-
-_Py_  
-
 
 
 
