@@ -136,7 +136,7 @@ The colored squares next to the value mean:
 
 **Gray** - Value typed in
 
-**Cyan** - An "expression" using Pyton to reference an operator or variable like absTime.seconds
+**Cyan** - An "expression" using Python to reference an operator or variable like absTime.seconds
 
 **Green** - An exported value \(references through file organization\)
 

@@ -4,7 +4,7 @@ Each language has its own way of creating objects, but generally have the same w
 
 Generally, it's with dots and it starts with the largest object or class and gets smaller each time.
 
-Example if we had Census data to access from outside of a USPopulation object and we wanted the name of the head of household of 101 N. Court Street.
+**Example:** if we had Census data to access from outside of a USPopulation object and we wanted the name of the head of household of 101 N. Court Street.
 
 USPopulation.Midwest.Ohio.Southeast.Athens.Athens.UpTown.NorthCourtStreet.0-300.100.Household.Head.name
 
