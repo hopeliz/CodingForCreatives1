@@ -75,8 +75,6 @@
   * [Common Errors](glossary/arrays/common-errors.md)
 * [Conditional Statements \(If/Else\)](glossary/conditional-statements-if-else.md)
 * [Operators](glossary/operators/README.md)
-  * [Untitled](glossary/operators/untitled-1.md)
-  * [Untitled](glossary/operators/untitled.md)
   * [Relational Operators](glossary/operators/relational-operators.md)
   * [Mathematical Operators](glossary/operators/mathematical-operators.md)
   * [Logical Operators](glossary/operators/logical-operators.md)
