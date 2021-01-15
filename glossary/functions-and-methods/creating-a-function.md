@@ -17,7 +17,7 @@
 
 * Naming a function is similar to naming a variable - they have NO SPACES.
 * The names are often a verb or action  .
-* As for casing, it depends on the language, but will work with any.
+* As for casing, it depends on the language but will work with any.
 
 ### 3. Parameters / Input
 
@@ -33,9 +33,9 @@ Just like other blocks of code, the code that should run should be put inside cu
 ### 5. Return or Output
 
 * In explicit languages - especially if the function code starts with a data type - that data type must be “**returned**.”
-* Use a line of code in the curly brackets:   return value;
+* Use a line of code in the curly brackets:   `return value;`
 * The value should match the data type
-* For some languages, void functions require return none;
+* For some languages, void functions require `return none;`
 
 ## Examples
 
