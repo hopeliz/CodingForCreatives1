@@ -29,8 +29,6 @@ Inside this file:
 
 **RotateCamera.cs** - A script I found years ago and have since modified that uses your mouse to look around. It might not be the most efficient, but it's good for testing other scripts. I also added a code for making the cursor hidden since the rotation will not match and this throws off the user.
 
-## Step 1: Set Up the Unity Scene
-
 ## Step 1: Create and Set Up a New Scene
 
 Open a previous Unity project file or create a new one.
@@ -591,4 +589,6 @@ public class RaycastingTest : MonoBehaviour
 Save your script and test it!
 
 ![](../../.gitbook/assets/week7bs7.gif)
+
+
 
