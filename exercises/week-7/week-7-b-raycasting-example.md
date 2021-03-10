@@ -115,6 +115,8 @@ Your Scene window might be looking at your scene from a different angle than you
 
 You can test the scene now and it is best when viewed with **Maximize On Play** is on. Press ESC to bring the mouse back to stop playing.
 
+![](../../.gitbook/assets/image%20%28308%29.png)
+
 ![](../../.gitbook/assets/week7bs3.gif)
 
 ## Step 4: Add a User Interface
@@ -145,7 +147,7 @@ This should create it as a child object of the Canvas object:
 
 ![](../../.gitbook/assets/image%20%28127%29.png)
 
-The Source Image of the Panel is background by default and appears as a gray overlay.
+Select the Panel object. In the Inspector window, you'll see that theThe Source Image of the Panel is background by default and appears as a gray overlay.
 
 We want a circle image, so change **Source Image** to **Knob** by clicking on the target/bull's eye icon to the right of the Source Image field in the Inspector window.
 
