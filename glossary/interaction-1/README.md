@@ -2,7 +2,7 @@
 
 This section is under construction, but check out what's here:
 
-{% page-ref page="interaction.md" %}
-
-
+{% content-ref url="interaction.md" %}
+[interaction.md](interaction.md)
+{% endcontent-ref %}
 

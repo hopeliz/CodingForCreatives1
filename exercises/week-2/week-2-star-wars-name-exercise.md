@@ -19,7 +19,7 @@ Last Name:
 2. Add the first three letters of the ~~city~~ state in which you were born.
 
 {% hint style="danger" %}
-I changed the last two since the info \(if you used real info\) can be used for identity theft.
+I changed the last two since the info (if you used real info) can be used for identity theft.
 {% endhint %}
 
 ## Step 1: Create the Variables for the Four Steps
@@ -41,7 +41,7 @@ void draw() {
 
 ## Step 2: Assign the Variables
 
-Normally, these would be assigned after prompting the user and storing their response. To pretend that happened, let's assign the variables in the setup\(\) function.
+Normally, these would be assigned after prompting the user and storing their response. To pretend that happened, let's assign the variables in the setup() function.
 
 ```java
 String lastName;
@@ -62,11 +62,11 @@ void draw() {
 
 ## Step 3: Print the Name
 
-To get parts of the strings \(i.e. "first 3 letters" etc.\), we need to get the substrings of the variables we have. Let's use Processing's .substring\(\) function:
+To get parts of the strings (i.e. "first 3 letters" etc.), we need to get the substrings of the variables we have. Let's use Processing's .substring() function:
 
-_.substring\(index of first letter\)_ starts the string with the index/location of the first letter.
+_.substring(index of first letter) _starts the string with the index/location of the first letter.
 
-_.substring\(index of first letter, index of limit letter\)_ starts the string with the index/location of the first letter and ends on the letter before the limit letter
+_.substring(index of first letter, index of limit letter)_ starts the string with the index/location of the first letter and ends on the letter before the limit letter
 
 We'll use the second one since we need the beginning of each string. Remember to add a space between the second and third variables to show a separation between the first and last name.
 
@@ -95,7 +95,7 @@ Output:
 
 ## Step 4: Polish It a Little
 
-You'll notice the names have capital letters in the middle of each. We can make those lowercase by using the _.toLowerCase\(\)_ function. Just attach it to the end of the substring\(\) function code to add the effect.
+You'll notice the names have capital letters in the middle of each. We can make those lowercase by using the _.toLowerCase() _function. Just attach it to the end of the substring() function code to add the effect.
 
 ```java
 String lastName;
@@ -153,7 +153,6 @@ print(starwars_first + " + starwars_last)
 
 **What to look at:**
 
-In python, substrings are controlled with square brackets \[ \] and within them, the beginning letter and the end letter don't need a number to represent them. The "to", as in "from this letter **to** this letter" is symbolized by a colon \( : \)
+In python, substrings are controlled with square brackets \[ ] and within them, the beginning letter and the end letter don't need a number to represent them. The "to", as in "from this letter **to** this letter" is symbolized by a colon ( : )
 
-The function to make the string lowercase is _.lower\(\)_
-
+The function to make the string lowercase is _.lower()_

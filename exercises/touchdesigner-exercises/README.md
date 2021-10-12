@@ -4,7 +4,7 @@ This section is under construction.
 
 Here are some step-by-step activities for TouchDesigner.
 
-{% page-ref page="colorful-text.md" %}
-
-
+{% content-ref url="colorful-text.md" %}
+[colorful-text.md](colorful-text.md)
+{% endcontent-ref %}
 

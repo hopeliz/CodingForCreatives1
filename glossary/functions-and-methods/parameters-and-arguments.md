@@ -62,5 +62,3 @@ changeColor(block11, grey);
 
 
 
-
-

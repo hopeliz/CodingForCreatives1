@@ -2,7 +2,7 @@
 
 ## Using Array Elements
 
-Now, the elements can be accessed by their **indices** \(plural of index\).
+Now, the elements can be accessed by their **indices** (plural of index).
 
 **Examples:**
 
@@ -22,7 +22,7 @@ println("My shopping list includes: " + shoppingList[0] + ", " + shoppingList[1]
 
 Sometimes you need to add elements to an array. Often, you’ll get an error if you try to assign a value to a non-existent “slot” or reference an index outside of what is available.
 
-Most languages use a function such as **.append\(\)** or **.expand\(\)** or **.push\(\)** or **.add\(\)**
+Most languages use a function such as **.append()** or **.expand()** or **.push()** or **.add()**
 
 Examples:
 
@@ -38,7 +38,7 @@ ages = append(ages, 63);
 
 Making an index / element empty does not remove the element.
 
-To remove the element, use a function such as **.shorten\(\)** \(Processing\) or **.Remove\(\)** \(Unity/C\#\).
+To remove the element, use a function such as **.shorten()** (Processing) or **.Remove()** (Unity/C#).
 
 Examples:
 
@@ -52,7 +52,7 @@ ages = shorten(ages);
 
 ## Sorting Arrays
 
-To sort an array use a function such as **.sort\(\)** for alphabetical OR **.reverse\(\)** for the opposite.
+To sort an array use a function such as **.sort()** for alphabetical OR **.reverse()** for the opposite.
 
 Examples:
 
@@ -75,4 +75,3 @@ ages = reverse(ages);
 println(ages);
 // Prints in this order: 80, 51, 50, 50, 45, 31, 12, 7
 ```
-

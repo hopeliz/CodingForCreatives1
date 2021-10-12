@@ -2,24 +2,24 @@
 
 ## Supplies for All
 
-|  |  |
-| :--- | :--- |
-| ![](../../.gitbook/assets/image%20%28288%29.png)  | Circuit Board |
-| ![](../../.gitbook/assets/image%20%28303%29.png)  | Breadboard |
-| ![](../../.gitbook/assets/image%20%28305%29.png)  | Jumper Cables |
+|                                               |               |
+| --------------------------------------------- | ------------- |
+| ![](<../../.gitbook/assets/image (287).png>)  | Circuit Board |
+| ![](<../../.gitbook/assets/image (288).png>)  | Breadboard    |
+| ![](<../../.gitbook/assets/image (290).png>)  | Jumper Cables |
 
 ## Buzzer
 
 ### Additional Supplies
 
-|  |  |
-| :--- | :--- |
-| ![](../../.gitbook/assets/image%20%28297%29.png)  | Buzzer |
-| ![](../../.gitbook/assets/image%20%28284%29.png)  | 100 Ohm Resistor |
+|                                               |                  |
+| --------------------------------------------- | ---------------- |
+| ![](<../../.gitbook/assets/image (292).png>)  | Buzzer           |
+| ![](<../../.gitbook/assets/image (293).png>)  | 100 Ohm Resistor |
 
 ### Diagram
 
-![The data \(yellow\) wire is connected to digital pin 9.](../../.gitbook/assets/image%20%28306%29.png)
+![The data (yellow) wire is connected to digital pin 9.](<../../.gitbook/assets/image (294).png>)
 
 ### Code
 
@@ -46,35 +46,14 @@ void loop() {
 
 ### Additional Supplies
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (286).png" alt/>
-      </td>
-      <td style="text-align:left">
-        <p>LED light</p>
-        <p>(any color, as long as it has only two connectors)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (291).png" alt/>
-      </td>
-      <td style="text-align:left">220 Ohm Resistor</td>
-    </tr>
-  </tbody>
-</table>
+|                                               |                                                                           |
+| --------------------------------------------- | ------------------------------------------------------------------------- |
+| ![](<../../.gitbook/assets/image (295).png>)  | <p>LED light</p><p>(any color, as long as it has only two connectors)</p> |
+| ![](<../../.gitbook/assets/image (296).png>)  | 220 Ohm Resistor                                                          |
 
 ### Diagram
 
-![The data \(yellow\) wire is connected to digital pin 9.](../../.gitbook/assets/image%20%28289%29.png)
+![The data (yellow) wire is connected to digital pin 9.](<../../.gitbook/assets/image (297).png>)
 
 ### Code
 
@@ -103,35 +82,14 @@ This example shows using and controlling two separate LEDs as an example of mult
 
 ### Additional Supplies
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (286).png" alt/>
-      </td>
-      <td style="text-align:left">
-        <p>2 LED lights</p>
-        <p>(any color, as long as it has only two connectors)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (291).png" alt/>
-      </td>
-      <td style="text-align:left">2 - 220 Ohm Resistors</td>
-    </tr>
-  </tbody>
-</table>
+|                                               |                                                                              |
+| --------------------------------------------- | ---------------------------------------------------------------------------- |
+| ![](<../../.gitbook/assets/image (295).png>)  | <p>2 LED lights</p><p>(any color, as long as it has only two connectors)</p> |
+| ![](<../../.gitbook/assets/image (296).png>)  | 2 - 220 Ohm Resistors                                                        |
 
 ### Diagram
 
-![The yellow data wire is connected to digital pin 10 and the orange wire to pin 9.](../../.gitbook/assets/image%20%28281%29.png)
+![The yellow data wire is connected to digital pin 10 and the orange wire to pin 9.](<../../.gitbook/assets/image (298).png>)
 
 ### Code
 
@@ -168,41 +126,20 @@ This is a special LED that you can use 0-255 color values to get any color of th
 
 ### Additional Supplies
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (280).png" alt/>
-      </td>
-      <td style="text-align:left">
-        <p>2 LED lights</p>
-        <p>(any color, as long as it has only two connectors)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (291).png" alt/>
-      </td>
-      <td style="text-align:left">3 - 220 Ohm Resistors</td>
-    </tr>
-  </tbody>
-</table>
+|                                               |                                                                              |
+| --------------------------------------------- | ---------------------------------------------------------------------------- |
+| ![](<../../.gitbook/assets/image (299).png>)  | <p>2 LED lights</p><p>(any color, as long as it has only two connectors)</p> |
+| ![](<../../.gitbook/assets/image (296).png>)  | 3 - 220 Ohm Resistors                                                        |
 
 ### Diagram
 
-Note: This diagram is for a Cathode RGB LED where the 2nd connector is the ground \(negative\) connection.
+Note: This diagram is for a Cathode RGB LED where the 2nd connector is the ground (negative) connection.
 
-![The blue wire is connected to pin 9, green to pin 10, and red to pin 11.](../../.gitbook/assets/image%20%28301%29.png)
+![The blue wire is connected to pin 9, green to pin 10, and red to pin 11.](<../../.gitbook/assets/image (300).png>)
 
 ## Code
 
-This example turns the light cyan using the "simple" way \(setting each color with a line of code\).
+This example turns the light cyan using the "simple" way (setting each color with a line of code).
 
 ```cpp
 // Red pin is connected to pin 11 on the Arduino circuit board
@@ -261,4 +198,3 @@ void RGB_Color(int redValue, int greenValue, int blueValue) {
   analogWrite(blue, blueValue);
 }
 ```
-

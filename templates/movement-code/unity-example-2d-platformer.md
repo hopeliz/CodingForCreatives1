@@ -1,4 +1,4 @@
-# Unity Example \(2D Platformer\)
+# Unity Example (2D Platformer)
 
 This code should be placed on the player sprite.
 
@@ -79,4 +79,3 @@ public class PlayerMovement2D : MonoBehaviour
 }
 
 ```
-

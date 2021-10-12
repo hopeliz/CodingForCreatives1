@@ -2,45 +2,24 @@
 
 ## Supplies for All
 
-|  |  |
-| :--- | :--- |
-| ![](../../.gitbook/assets/image%20%28288%29.png)  | Circuit Board |
-| ![](../../.gitbook/assets/image%20%28303%29.png)  | Breadboard |
-| ![](../../.gitbook/assets/image%20%28305%29.png)  | Jumper Cables |
+|                                               |               |
+| --------------------------------------------- | ------------- |
+| ![](<../../.gitbook/assets/image (287).png>)  | Circuit Board |
+| ![](<../../.gitbook/assets/image (288).png>)  | Breadboard    |
+| ![](<../../.gitbook/assets/image (290).png>)  | Jumper Cables |
 
 ## Photoresistor
 
 ### Additional Supplies
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (298).png" alt/>
-      </td>
-      <td style="text-align:left">
-        <p>Photoresistor</p>
-        <p>(light sensor)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (284).png" alt/>
-      </td>
-      <td style="text-align:left">100 Ohm Resistor</td>
-    </tr>
-  </tbody>
-</table>
+|                                               |                                           |
+| --------------------------------------------- | ----------------------------------------- |
+| ![](<../../.gitbook/assets/image (301).png>)  | <p>Photoresistor</p><p>(light sensor)</p> |
+| ![](<../../.gitbook/assets/image (293).png>)  | 100 Ohm Resistor                          |
 
 ### Diagram
 
-![The data \(yellow\) wire is connected to pin A0 \(analog\).](../../.gitbook/assets/image%20%28290%29.png)
+![The data (yellow) wire is connected to pin A0 (analog).](<../../.gitbook/assets/image (302).png>)
 
 ### Code
 
@@ -78,29 +57,13 @@ This sensor works like a bat or a clicker from _The Last of Us_ to detect object
 
 ### Additional Supplies
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (296).png" alt/>
-      </td>
-      <td style="text-align:left">
-        <p>Ultrasonic Sensor</p>
-        <p>(distant sensor)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+|                                               |                                                 |
+| --------------------------------------------- | ----------------------------------------------- |
+| ![](<../../.gitbook/assets/image (303).png>)  | <p>Ultrasonic Sensor</p><p>(distant sensor)</p> |
 
 ### Diagram
 
-![The Trigger \(yellow\) wire is connected to pin 7 and Echo \(green\) to pin 6.](../../.gitbook/assets/image%20%28287%29.png)
+![The Trigger (yellow) wire is connected to pin 7 and Echo (green) to pin 6.](<../../.gitbook/assets/image (284).png>)
 
 ### Code
 
@@ -156,4 +119,3 @@ void loop() {
   }
 }
 ```
-

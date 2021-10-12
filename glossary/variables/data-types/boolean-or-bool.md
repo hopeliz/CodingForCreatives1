@@ -3,7 +3,7 @@
 ## Description
 
 * **True** or **False**
-* Represented also as **1** \(true\) or **0** \(false\)
+* Represented also as **1** (true) or **0** (false)
 * Whether it’s capitalized depends on the language
 * Great for control and sensors
 
@@ -15,7 +15,7 @@ _Processing:_
 boolean lightOn = false;
 ```
 
-_C\#_
+_C#_
 
 ```csharp
 bool lightOn = false;
@@ -35,7 +35,7 @@ gameOver = False
 
 ## Shortcut
 
-Using an exclamation mark \( ! \) at the beginning of a boolean variable name is short for “the opposite” of the variable
+Using an exclamation mark ( ! ) at the beginning of a boolean variable name is short for “the opposite” of the variable
 
 {% hint style="warning" %}
 This does **not** update the variable.
@@ -53,7 +53,7 @@ println(!lightOn); // Prints “true” to console
 
 ```
 
-_C\# example:_
+_C# example:_
 
 ```csharp
 bool lightOn = false;
@@ -66,4 +66,3 @@ print(!lightOn); // Prints “true” to console
 {% hint style="warning" %}
 This "shortcut" might not exist in Python.
 {% endhint %}
-

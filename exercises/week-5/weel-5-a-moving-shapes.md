@@ -4,7 +4,7 @@ The steps below walk you through a Processing activity we did during Week 5. All
 
 ## Loops
 
-Loops are often used to control movement in some art programs. Here is an example of how a shape can move in Processing using a loop using the draw\(\) function's looping nature:
+Loops are often used to control movement in some art programs. Here is an example of how a shape can move in Processing using a loop using the draw() function's looping nature:
 
 ## Step 1:  Create the Shape
 
@@ -33,7 +33,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](<../../.gitbook/assets/image (14).png>)
 
 ## Step 2: Creating Variables for Varying Values
 
@@ -65,7 +65,7 @@ void draw() {
 
 ## Step 3: Use the Looping Nature of Draw
 
-draw\(\) loops the code once per frame, so we can use this looping nature to update the x coordinate for each frame.
+draw() loops the code once per frame, so we can use this looping nature to update the x coordinate for each frame.
 
 Add a speed variable to make the speed of this movement changeable.
 
@@ -99,11 +99,11 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5as3.gif)
+![](../../.gitbook/assets/Week5As3.gif)
 
 ## Step 4: Change Direction with If Statements
 
-The draw\(\) function is taking care of the looping, so let's tell it how to loop by putting in some if statements.
+The draw() function is taking care of the looping, so let's tell it how to loop by putting in some if statements.
 
 When the circle reaches the x coordinate of 500, have it change to moving downward.
 
@@ -144,7 +144,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5as4.gif)
+![](../../.gitbook/assets/Week5As4.gif)
 
 ## Step 5: Make a Full Square
 
@@ -236,5 +236,4 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5as5.gif)
-
+![](../../.gitbook/assets/Week5As5.gif)

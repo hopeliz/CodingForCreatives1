@@ -1,8 +1,8 @@
 # Popular SOPs
 
-Surface operators \(SOPs\) are colored blue and manipulate 3D objects.
+Surface operators (SOPs) are colored blue and manipulate 3D objects.
 
-![](../.gitbook/assets/image%20%28140%29.png)
+![](<../.gitbook/assets/image (181).png>)
 
 ## Extra for 3D
 
@@ -10,7 +10,7 @@ For 3D scenes, you'll need the following:
 
 * Light COMP
 * Camera COMP
-* Geometry COMP \(see below how to do this with pre-existing 3D objects\)
+* Geometry COMP (see below how to do this with pre-existing 3D objects)
 * Render Top
 
 Adding each will set them up without adding more connections.
@@ -21,7 +21,7 @@ Adding each will set them up without adding more connections.
 
 How it should look when everything is added:
 
-![](../.gitbook/assets/image%20%28186%29.png)
+![](<../.gitbook/assets/image (187).png>)
 
 ## Basics
 
@@ -29,7 +29,7 @@ How it should look when everything is added:
 
 Provides a snapshot of sorts of a point within your network. Commonly used to help look at the effects of major changes later and remove them easily when necessary.
 
-![](../.gitbook/assets/image%20%28170%29.png)
+![](<../.gitbook/assets/image (182).png>)
 
 ### Noise SOP
 
@@ -39,9 +39,9 @@ For when you want some randomness.
 
 ### Switch SOP
 
-Takes in multiple surface operators \(SOPS\) and creates an array. A single element of the array can be accessed by the Switch SOP's Index parameter. 
+Takes in multiple surface operators (SOPS) and creates an array. A single element of the array can be accessed by the Switch SOP's Index parameter. 
 
-![](../.gitbook/assets/image%20%28168%29.png)
+![](<../.gitbook/assets/image (184).png>)
 
 ### Select SOP
 
@@ -49,7 +49,7 @@ Provides a visual "copy" that references another surface operator. This is great
 
 Click and drag the original SOP into the Select SOP or type in the original SOP's name in the Select SOP's parameter.
 
-![](../.gitbook/assets/image%20%28196%29.png)
+![](<../.gitbook/assets/image (196).png>)
 
 ## Shapes / Primitives / Transforms
 
@@ -57,11 +57,10 @@ Click and drag the original SOP into the Select SOP or type in the original SOP'
 
 Creates 3D shapes or text.
 
-![](../.gitbook/assets/image%20%28146%29.png)
+![](<../.gitbook/assets/image (185).png>)
 
 ### Transform SOP
 
 Manipulates position, rotation, scale, etc.
 
-![](../.gitbook/assets/image%20%28180%29.png)
-
+![](<../.gitbook/assets/image (186).png>)

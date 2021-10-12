@@ -8,5 +8,4 @@ Four common data types are...
 
 [Boolean or Bool](boolean-or-bool.md)
 
-[String](string.md) \(sometimes CHAR or character\)
-
+[String](string.md) (sometimes CHAR or character)

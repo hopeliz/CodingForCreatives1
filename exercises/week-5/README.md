@@ -2,15 +2,21 @@
 
 Here are the step-by-step activities for Week 5.
 
-{% page-ref page="weel-5-a-moving-shapes.md" %}
+{% content-ref url="weel-5-a-moving-shapes.md" %}
+[weel-5-a-moving-shapes.md](weel-5-a-moving-shapes.md)
+{% endcontent-ref %}
 
-{% page-ref page="week-5-b-looping-arrays.md" %}
+{% content-ref url="week-5-b-looping-arrays.md" %}
+[week-5-b-looping-arrays.md](week-5-b-looping-arrays.md)
+{% endcontent-ref %}
 
-{% page-ref page="week-5-c-using-user-input-to-create-arrays.md" %}
+{% content-ref url="week-5-c-using-user-input-to-create-arrays.md" %}
+[week-5-c-using-user-input-to-create-arrays.md](week-5-c-using-user-input-to-create-arrays.md)
+{% endcontent-ref %}
 
-{% page-ref page="week-5-d-for-and-foreach-loops-in-unity.md" %}
-
-
+{% content-ref url="week-5-d-for-and-foreach-loops-in-unity.md" %}
+[week-5-d-for-and-foreach-loops-in-unity.md](week-5-d-for-and-foreach-loops-in-unity.md)
+{% endcontent-ref %}
 
 
 

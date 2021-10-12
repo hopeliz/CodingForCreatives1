@@ -1,27 +1,29 @@
-# Week 7-A Mario Coin Catch \(Unity\)
+# Week 7-A Mario Coin Catch (Unity)
 
 This starts off after we add the jump code. Please start from the end of Week 6-B's activity. This activity uses Unity and all code should allow you to copy and paste.
 
 For information on how to create a new Unity project and what each of the windows/tabs mean, please see [Week 5-D Step 1](../week-5/week-5-d-for-and-foreach-loops-in-unity.md).
 
 {% hint style="info" %}
-Be sure to download Visual Studio to make it easier to code in C\# for Unity. Download it here:   
+Be sure to download Visual Studio to make it easier to code in C# for Unity. Download it here: \
 [https://visualstudio.microsoft.com/vs/community/](https://visualstudio.microsoft.com/vs/community/)
 {% endhint %}
 
 ## Images
 
-{% file src="../../.gitbook/assets/marioimages.zip" caption="MarioImages.zip" %}
+{% file src="../../.gitbook/assets/MarioImages.zip" %}
+MarioImages.zip
+{% endfile %}
 
 ## Start with this Code
 
 {% hint style="info" %}
-This code is for a MarioMove.cs script within the Assets folder in Unity. If you create it by scratch, you will need to add this script to your Mario game object and assign your sprites and Mario game object within your Mario Move component \(inside the Inspector Tab\).
+This code is for a MarioMove.cs script within the Assets folder in Unity. If you create it by scratch, you will need to add this script to your Mario game object and assign your sprites and Mario game object within your Mario Move component (inside the Inspector Tab).
 
 Individual values might need to be updated to fit your tastes. It should appear something like this:
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+![](<../../.gitbook/assets/image (77).png>)
 
 ```csharp
 using System.Collections;
@@ -176,41 +178,43 @@ public class MarioMove : MonoBehaviour
 
 Click on your Mario object to bring up its components in the **Inspector** window. 
 
-Under **Rigidbody 2D**, twirl down _Constraints_ and check **Freeze Rotation** &gt; Z. Otherwise, Mario will fall over from the force.
+Under **Rigidbody 2D**, twirl down _Constraints_ and check **Freeze Rotation** > Z. Otherwise, Mario will fall over from the force.
 
 ## Step 1: Import Your Coin Sprite
 
 Feel free to use this image or import in another image to serve as your "coin."
 
-{% file src="../../.gitbook/assets/coin.png" caption="Coin.png" %}
+{% file src="../../.gitbook/assets/coin.png" %}
+Coin.png
+{% endfile %}
 
 Click and drag it from your computer's folder into the Assets folder within your Project Window in Unity.
 
-![](../../.gitbook/assets/week7as1.gif)
+![](../../.gitbook/assets/Week7As1.gif)
 
 You'll notice it has a white background because it's just an image right now.
 
 Let's change it to a sprite.
 
-Click on the coin image. In the Inspector Window, change the **Texture Type** to **Sprite \(2D and UI\)**.
+Click on the coin image. In the Inspector Window, change the **Texture Type **to **Sprite (2D and UI)**.
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](<../../.gitbook/assets/image (78).png>)
 
 Click the **Apply** button.
 
 This should turn the image into a sprite with a transparent background.
 
-![](../../.gitbook/assets/image%20%2837%29.png)
+![](<../../.gitbook/assets/image (79).png>)
 
 ## Step 2: Create a Coin Prefab
 
 ### 2a. Add example coin to scene
 
-To create a prefab \(a reusable object\), we need to make an example of that object.
+To create a prefab (a reusable object), we need to make an example of that object.
 
 Drag the coin sprite into your scene and resize it to your liking.
 
-![](../../.gitbook/assets/image%20%2875%29.png)
+![](<../../.gitbook/assets/image (80).png>)
 
 ### 2b. Create the spinning coin code
 
@@ -218,13 +222,13 @@ The coins will use their own code to move and communicate to a centralized objec
 
 In the Project window, go to the **Assets** folder. In the window, right-click and create a new folder called **Scripts** and go to it.
 
-Create a new script by right-clicking and choosing Create &gt; C\# Script
+Create a new script by right-clicking and choosing Create > C# Script
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](<../../.gitbook/assets/image (69).png>)
 
 It will appear like this:
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](<../../.gitbook/assets/image (70).png>)
 
 Name it something like CoinBehavior.
 
@@ -232,23 +236,23 @@ Click and drag it or use the **Add Component** button in the Inspector Window to
 
 It should appear like this in the inspector.
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](<../../.gitbook/assets/image (81).png>)
 
-Open it in your text editor \(preferably Visual Studio\).
+Open it in your text editor (preferably Visual Studio).
 
 Here, we want the coin to spin.
 
 Since the code will only be used on the coin, we can access the transform component simply by using "transform." The script will look for a transform component within the object it is attached to.
 
-In Update\(\), add the following code:
+In Update(), add the following code:
 
 ```csharp
 transform.Rotate(Vector3.up);
 ```
 
-Rotate\(\) is a built-in function inside the transform **class** - the set of code that controls and stores information for transform components.
+Rotate() is a built-in function inside the transform **class** - the set of code that controls and stores information for transform components.
 
-Vector3.up is shorthand for new Vector3\(0, 1, 0\), so the coin will spin on the Y axis.
+Vector3.up is shorthand for new Vector3(0, 1, 0), so the coin will spin on the Y axis.
 
 Modify this with Time.deltaTime to normalize the speed.
 
@@ -256,7 +260,7 @@ Modify this with Time.deltaTime to normalize the speed.
 transform.Rotate(Vector3.up * Time.deltaTime);
 ```
 
-To adjust this speed, add a variable at the top for speed and multiply it to the Rotate\(\) argument.
+To adjust this speed, add a variable at the top for speed and multiply it to the Rotate() argument.
 
 ```csharp
 using System.Collections;
@@ -283,7 +287,7 @@ public class CoinBehavior : MonoBehaviour
 
 Save and test!
 
-![](../../.gitbook/assets/week7as2.gif)
+![](../../.gitbook/assets/Week7As2.gif)
 
 ### 2c. Have the coin fall
 
@@ -293,27 +297,27 @@ I generally call this centralized object and script **GameController**. You can 
 
 Right-click in the **Hierarchy** window and choose **Create Empty**.
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](<../../.gitbook/assets/image (82).png>)
 
 Rename the new, empty object:
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](<../../.gitbook/assets/image (86).png>)
 
-In the **Project** window, right-click and create a new **C\# Script**.
+In the **Project **window, right-click and create a new **C# Script**.
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](<../../.gitbook/assets/image (69).png>)
 
 Name it. **REMEMBER:** no spaces and capitalize it!
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](<../../.gitbook/assets/image (84).png>)
 
 Add the script to the **Game Controller** object.
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](<../../.gitbook/assets/image (85).png>)
 
 Open the new script.
 
-Add a public variable at the top \(above Start\(\)\) to store the fall speed:
+Add a public variable at the top (above Start()) to store the fall speed:
 
 ```csharp
 public float fallSpeed = 1;
@@ -330,15 +334,15 @@ public GameObject gameController;
 public float coinFallSpeed;
 ```
 
-Set coinFallSpeed to be the GameController script's fallSpeed value in Start\(\).
+Set coinFallSpeed to be the GameController script's fallSpeed value in Start().
 
 ```csharp
 coinFallSpeed = gameController.GetComponent<GameController>().fallSpeed;
 ```
 
-Also, add this code to Update\(\) so it updates every frame.
+Also, add this code to Update() so it updates every frame.
 
-Add the code to have the coin move downward continually in the Update\(\) function:
+Add the code to have the coin move downward continually in the Update() function:
 
 ```csharp
 transform.position += Vector3.down;
@@ -397,25 +401,25 @@ Click on the coin object in the Hierarchy or Scene window to bring up its compon
 
 Use the target icon or click and drag the Game Controller object to the field for Game Controller.
 
-![](../../.gitbook/assets/image%20%2881%29.png)
+![](<../../.gitbook/assets/image (87).png>)
 
 Press play to test!
 
-![](../../.gitbook/assets/week7as2c.gif)
+![](../../.gitbook/assets/Week7As2c.gif)
 
 ### 2d. Create the Prefab
 
-Create a Prefab folder in your Assets folder within the Project folder. \(This is an optional step that helps with organization.\)
+Create a Prefab folder in your Assets folder within the Project folder. (This is an optional step that helps with organization.)
 
 Click and drag your coin object from the **Hierarchy** window to the **Project** window into your new Prefabs folder.
 
-It will look like this in the **Project** window:
+It will look like this in the **Project **window:
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](<../../.gitbook/assets/image (88).png>)
 
 And it will appear blue within the **Hierarchy** window:
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](<../../.gitbook/assets/image (89).png>)
 
 To test, click and drag the prefab from the **Project** window to the **Scene** window. 
 
@@ -427,25 +431,25 @@ Open the CoinBehavior script.
 
 We know the Game Controller in the scene will be the only object with the Game Controller script. We can get the Game Controller object by finding the script first.
 
-In the **Start\(\)** function, set the gameController variable with this script:
+In the **Start()** function, set the gameController variable with this script:
 
 ```csharp
 gameController = FindObjectOfType<GameController>().gameObject;
 ```
 
-FindObjectOfType&lt;&gt;\(\) is a built-in function that looks for the first object with the component listed in the angle brackets &lt;&gt;. After we get that, we can get the proper part of the object \(here, it is the GameObject\) we need.
+FindObjectOfType<>() is a built-in function that looks for the first object with the component listed in the angle brackets <>. After we get that, we can get the proper part of the object (here, it is the GameObject) we need.
 
 Save and return to Unity. Hit play to test.
 
 The Game Controller field should update and the coins should fall at the same rate. You can change the Fall Speed in Game Controller to see if all coins are affected.
 
-![](../../.gitbook/assets/week7as2d.gif)
+![](../../.gitbook/assets/Week7As2d.gif)
 
 ## Step 3: Spawning Coins
 
 Let's use this coin prefab to "spawn" or "instantiate" at a random location within the left and right edges of the frame, but just outside the top of the frame.
 
-Unity has a built-in function called Instantiate\(\) that takes the arguments for the object to spawn and a Vector 3 for where to spawn it.
+Unity has a built-in function called Instantiate() that takes the arguments for the object to spawn and a Vector 3 for where to spawn it.
 
 Open the GameController script.
 
@@ -453,9 +457,9 @@ Since multiple coins will spawn, we will have the Game Controller do the work.
 
 We first need variables for:
 
-* The coin prefab \(a game object\)
+* The coin prefab (a game object)
 * A spawn delay
-* A spawn delay reset value \(speed of spawning\)
+* A spawn delay reset value (speed of spawning)
 
 ```csharp
 public GameObject coinPrefab;
@@ -463,7 +467,7 @@ public float spawnDelay;
 public float spawnDelayReset = 2;
 ```
 
-Set spawnDelay in **Start\(\)**
+Set spawnDelay in **Start()**
 
 ```csharp
 void Start()
@@ -474,7 +478,7 @@ void Start()
 
 Since we have a delay, we want to have it countdown and trigger the spawn when it hits zero and then reset.
 
-It loops, so put it in **Update\(\)**.
+It loops, so put it in **Update()**.
 
 ```csharp
 void Update()
@@ -493,7 +497,7 @@ void Update()
 }
 ```
 
-Let's use Instantiate\(\) and our coin prefab to spawn the coins.
+Let's use Instantiate() and our coin prefab to spawn the coins.
 
 ```csharp
 // Spawns coin prefab
@@ -512,11 +516,11 @@ Click on the arrow to the right of the name of the coin object in your **Hierarc
 
 This opens the coin prefab in your **Scene** window. Any updates in this mode will affect all your instances of that prefab object.
 
-![](../../.gitbook/assets/image%20%2885%29.png)
+![](<../../.gitbook/assets/image (90).png>)
 
-While coin is selected, right-click on the Transform component in the **Inspector** window and choose "Reset Position."
+While coin is selected, right-click on the Transform component in the **Inspector **window and choose "Reset Position."
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](<../../.gitbook/assets/image (92).png>)
 
 This might move the coin out of the Scene window. Click on the coin object in Hierarchy and press the letter F to focus on it.
 
@@ -526,7 +530,7 @@ Select the Game Controller object in the **Hierarchy** window to bring up its co
 
 Click and drag your coin prefab from the **Project** window to the field for Coin Prefab in the Game Controller script.
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](<../../.gitbook/assets/image (93).png>)
 
 Test it by playing it!
 
@@ -534,15 +538,15 @@ The coins should spawn at the center of the scene.
 
 Now, let's add the extra positioning.
 
-Click and drag your coin object in the Scene window, looking at the Transform component noting the Y coordinate when it's just out of frame in the **Game** window. Also, note the farthest left and right X coordinates you want.
+Click and drag your coin object in the Scene window, looking at the Transform component noting the Y coordinate when it's just out of frame in the **Game **window. Also, note the farthest left and right X coordinates you want.
 
-For mine, it's 8 for the Y axis and and -8.5 \(farthest left\) and 8.5 \(farthest right\).
+For mine, it's 8 for the Y axis and and -8.5 (farthest left) and 8.5 (farthest right).
 
 Open the GameController script.
 
 Add another argument for the location for the coin to spawn. For the **x-axis**, I'm using the built-in random function to pick a number between -8.5 and 8.5 and setting the **Y-axis** to 8. The **Z-axis** is 0 because we are working in 2 dimensions.
 
-This version of Instantiate\(\) also needs a rotation, so we'll just use the rotation the prefab already has.
+This version of Instantiate() also needs a rotation, so we'll just use the rotation the prefab already has.
 
 ```csharp
 // Spawns coin prefab
@@ -591,13 +595,13 @@ public class GameController : MonoBehaviour
 
 Save your script and return to Unity.
 
-Remove the final coin object from your **Hierarchy** window.
+Remove the final coin object from your **Hierarchy **window.
 
 Press play to test.
 
 The coins should spawn randomly outside of the frame and fall slowly down.
 
-![](../../.gitbook/assets/week7as3.gif)
+![](../../.gitbook/assets/Week7As3.gif)
 
 ## Step 4: Collisions
 
@@ -605,19 +609,19 @@ Now, we want to have points and speed increase when Mario hits a coin.
 
 We need to first give our coin prefab a collider.
 
-Click on your coin prefab in the **Project** window to bring up its components in the **Inspector** window.
+Click on your coin prefab in the **Project **window to bring up its components in the **Inspector **window.
 
 Click the **Add Component** button and use the search bar to find **Box Collider 2D** component. Select it to add it.
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](<../../.gitbook/assets/image (94).png>)
 
 Since we are looking at what the coin is hitting, we need to also add a Rigidbody2D component the same way we did the collider.
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](<../../.gitbook/assets/image (95).png>)
 
 We don't want gravity, so set **Gravity Scale** to zero.
 
-![](../../.gitbook/assets/image%20%2887%29.png)
+![](<../../.gitbook/assets/image (96).png>)
 
 Now, open the CoinBehavior script.
 
@@ -646,7 +650,7 @@ public int score = 0;
 public int fails = 0;
 ```
 
-We only want the coins to spawn when the game is running so wrap the Instantiate\(\) code in an if statement:
+We only want the coins to spawn when the game is running so wrap the Instantiate() code in an if statement:
 
 ```csharp
 if (gameOver != true)
@@ -746,7 +750,7 @@ public void OnCollisionEnter2D(Collision2D collision)
 
 **collision** serves as an object of "Collision2D" type that stores information about the object being hit. If the name of the object matches the name of the Mario or Ground object, we can run code.
 
-Once the coin hits anything, let's have it destroy itself with the built-in function **Destroy\(\)** at the end of the OnCollisionEnter2D\(\) function.
+Once the coin hits anything, let's have it destroy itself with the built-in function **Destroy() **at the end of the OnCollisionEnter2D() function.
 
 ```csharp
 Destroy(gameObject);
@@ -817,7 +821,7 @@ Save and test your game in Unity!
 
 We don't have an interface for the score in our game, so for now, you can see the score and fails by selecting the Game Controller object and watching the values change as you play.
 
-![](../../.gitbook/assets/week7asfinal.gif)
+![](../../.gitbook/assets/Week7AsFinal.gif)
 
 ## Final Codes
 
@@ -826,7 +830,7 @@ We don't have an interface for the score in our game, so for now, you can see th
 * Attached to Game Controller object
 
 {% hint style="warning" %}
-Set the Coin Prefab variable to the coin prefab from the **Project** window.
+Set the Coin Prefab variable to the coin prefab from the **Project **window.
 {% endhint %}
 
 ```csharp
@@ -884,7 +888,7 @@ public class GameController : MonoBehaviour
 * Attached to Mario object
 
 {% hint style="warning" %}
-Add the Mario game object from the **Hierarchy** window as the variable mario.
+Add the Mario game object from the **Hierarchy **window as the variable mario.
 
 Add stand, walk1, walk2, walk3, and jump sprites from the **Project** window as the sprite variables.
 {% endhint %}
@@ -1038,7 +1042,7 @@ public class MarioMove : MonoBehaviour
 
 ### CoinBehavior.cs script
 
-* Attached to the coin prefab \(within the **Project** window\)
+* Attached to the coin prefab (within the **Project** window)
 
 ```csharp
 using System.Collections;
@@ -1098,4 +1102,3 @@ public class CoinBehavior : MonoBehaviour
 }
 
 ```
-

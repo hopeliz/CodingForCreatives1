@@ -18,7 +18,7 @@ When calling a function with parameters/arguments, use values or variables that 
 
 The data types of the arguments should match the parameters of the function and appear in the same order.
 
-Just like when creating the function, arguments should be separated by commas and be inside the parentheses \(\).
+Just like when creating the function, arguments should be separated by commas and be inside the parentheses ().
 
 ## **Other Use**
 
@@ -44,4 +44,3 @@ float AddThree(float startNum) {
 
 
 ```
-

@@ -1,4 +1,4 @@
-# Conditional Statements \(If/Else\)
+# Conditional Statements (If/Else)
 
 ## If Statements
 
@@ -166,7 +166,7 @@ Instead of testing in the parentheses, the parentheses hold the first value, th
 
 Each case needs a “break” to move on.
 
-Each switch/case code block should have a default case serving as an else statement. Programmers often use the default case to test if the block ran, but had no equivalents \(a form of error catching\)
+Each switch/case code block should have a default case serving as an else statement. Programmers often use the default case to test if the block ran, but had no equivalents (a form of error catching)
 
 **Format:**
 
@@ -203,6 +203,4 @@ switch (name) {
         break;
 }
 ```
-
-
 

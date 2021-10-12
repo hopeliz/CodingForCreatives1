@@ -1,73 +1,24 @@
 # Create a Night Light
 
-This is an example of using an input \(sensor\) component to change an output of an output component.
+This is an example of using an input (sensor) component to change an output of an output component.
 
 ## Supplies
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (288).png" alt/>
-      </td>
-      <td style="text-align:left">Circuit Board</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (303).png" alt/>
-      </td>
-      <td style="text-align:left">Breadboard</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (305).png" alt/>
-      </td>
-      <td style="text-align:left">Jumper Cables</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (298).png" alt/>
-      </td>
-      <td style="text-align:left">
-        <p>Photoresistor</p>
-        <p>(light sensor)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (286).png" alt/>
-      </td>
-      <td style="text-align:left">
-        <p>Standalone LED Light</p>
-        <p>(any color with 2 leads)</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (284).png" alt/>
-      </td>
-      <td style="text-align:left">100 Ohm Resistor</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (291).png" alt/>
-      </td>
-      <td style="text-align:left">220 Ohm Resistor</td>
-    </tr>
-  </tbody>
-</table>
+|                                               |                                                            |
+| --------------------------------------------- | ---------------------------------------------------------- |
+| ![](<../../.gitbook/assets/image (287).png>)  | Circuit Board                                              |
+| ![](<../../.gitbook/assets/image (288).png>)  | Breadboard                                                 |
+| ![](<../../.gitbook/assets/image (290).png>)  | Jumper Cables                                              |
+| ![](<../../.gitbook/assets/image (301).png>)  | <p>Photoresistor</p><p>(light sensor)</p>                  |
+| ![](<../../.gitbook/assets/image (295).png>)  | <p>Standalone LED Light</p><p>(any color with 2 leads)</p> |
+| ![](<../../.gitbook/assets/image (293).png>)  | 100 Ohm Resistor                                           |
+| ![](<../../.gitbook/assets/image (296).png>)  | 220 Ohm Resistor                                           |
 
 ## Diagram
 
-![](../../.gitbook/assets/image%20%28295%29.png)
+![](<../../.gitbook/assets/image (307).png>)
 
-The photoresistor data \(yellow\) is connected to pin A0 \(analog\) and the LED data \(orange\) is connected to pin 2 \(digital\).
+The photoresistor data (yellow) is connected to pin A0 (analog) and the LED data (orange) is connected to pin 2 (digital).
 
 ## Code
 
@@ -112,6 +63,4 @@ void loop() {
   delay(100);
 }
 ```
-
-
 

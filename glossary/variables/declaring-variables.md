@@ -44,7 +44,7 @@ variablename = 0
 * Starts lowercase
 * Starting with the second word, each word starts with a capital letter
 
-**Examples:**   highScore    numPlayers    objectToDisappear
+**Examples:  ** highScore    numPlayers    objectToDisappear
 
 ### **Pascal Casing**
 
@@ -53,15 +53,13 @@ variablename = 0
 * Each word starts with a capital letter
 * Often used for functions and methods
 
-**Examples:**   HighScore    NumPlayers    ObjectToDisappear
+**Examples: **  HighScore    NumPlayers    ObjectToDisappear
 
 ### **All Upper Case**
 
 * No Spaces
-* Spaces are replaced by underscores \( \_ \)
+* Spaces are replaced by underscores ( \_ )
 * Often used for constant variables
 
-**Examples:**   HIGH\_SCORE    NUM\_PLAYERS   ****OBJECT\_TO\_DISAPPEAR  
-  
-
-
+**Examples:   **HIGH_SCORE    NUM_PLAYERS **  **OBJECT_TO_DISAPPEAR\
+\

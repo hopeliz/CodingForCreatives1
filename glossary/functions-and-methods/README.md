@@ -10,5 +10,3 @@ Learn more about...
 
 [...calling/invoking a function](calling-or-invoking-a-function.md)
 
-
-

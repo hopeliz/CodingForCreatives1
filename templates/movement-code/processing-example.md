@@ -50,4 +50,3 @@ void keyPressed() {
   rect(x, y, size, size);
 }
 ```
-

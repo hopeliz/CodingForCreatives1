@@ -4,7 +4,7 @@ The steps below walk you through the Processing activity we did during Week 3. A
 
 ## Step 1: Create a Canvas
 
-Use _size\(\)_ in the setup\(\) code block to create your canvas using width and height values.
+Use _size()_ in the setup() code block to create your canvas using width and height values.
 
 ```java
 void setup() {
@@ -14,14 +14,14 @@ void setup() {
 
 ## Step 2: Create a Square
 
-In Processing, use the _rect\(\)_ function. The four pieces of information needed are:
+In Processing, use the _rect()_ function. The four pieces of information needed are:
 
 1. x-coordinate
 2. y-coordinate
 3. width in pixels
 4. height in pixes
 
-For this example, we'll start with a 50 x 50 square with the **top left** corner at \(10, 10\).
+For this example, we'll start with a 50 x 50 square with the **top left** corner at (10, 10).
 
 ```java
 void setup() {
@@ -33,11 +33,11 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](<../../.gitbook/assets/image (4).png>)
 
 ## Step 3: Use Variables Instead
 
-Let's use variables instead of values in our rect\(\).
+Let's use variables instead of values in our rect().
 
 ```java
 float size = 50;
@@ -54,7 +54,7 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](<../../.gitbook/assets/image (5).png>)
 
 ## Step 4: Create the Next Square
 
@@ -85,7 +85,7 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](<../../.gitbook/assets/image (6).png>)
 
 ## Step 5: Making the Sizes Different
 
@@ -98,7 +98,7 @@ float size0 = 50;
 float size1 = 65;
 ```
 
-Update the names of the variables in the setup\(\) code.
+Update the names of the variables in the setup() code.
 
 Full code:
 
@@ -120,7 +120,7 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](<../../.gitbook/assets/image (7).png>)
 
 ## Step 6: Make a Third Square
 
@@ -153,11 +153,11 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](<../../.gitbook/assets/image (8).png>)
 
-Step 7: Move to draw\(\)
+Step 7: Move to draw()
 
-Move everything but size\(\) to a draw\(\) code block:
+Move everything but size() to a draw() code block:
 
 ```java
 float size0 = 50;
@@ -182,7 +182,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](<../../.gitbook/assets/image (9).png>)
 
 You'll notice the output shows only two sizes! This is because the x variable was not updated after the third square so the second square is drawn over it.
 
@@ -212,7 +212,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](<../../.gitbook/assets/image (10).png>)
 
 ## Step 7: Switching to Arrays Instead of Variables
 
@@ -226,7 +226,7 @@ float[] sizes = { 50, 65, 25 };
 
 Imagine each value as a one-column table starting with Row 0. The row number is the **index** number we are wanting to access.
 
-Then, we can use the array and index as a variable by using the array name followed by the index in square brackets **\[ \]**:
+Then, we can use the array and index as a variable by using the array name followed by the index in square brackets **\[ ]**:
 
 ```java
     rect(x, y, sizes[0], sizes[0]);
@@ -263,7 +263,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](<../../.gitbook/assets/image (10).png>)
 
 ## Step 8: Looping Through Array Values
 
@@ -342,11 +342,11 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](<../../.gitbook/assets/image (8).png>)
 
 Instead of drawing these squares each frame, it draws them once then stops because the variable i never resets after hitting 3.
 
-To have it draw repeatedly, reset the variable i to zero at the end of draw\(\).
+To have it draw repeatedly, reset the variable i to zero at the end of draw().
 
 ```java
 float[] sizes = { 50, 65, 25 };
@@ -373,9 +373,9 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](<../../.gitbook/assets/image (10).png>)
 
-To go back to having these appear once, but drawn each frame, add a background, and reset the variable x at the end of draw\(\).
+To go back to having these appear once, but drawn each frame, add a background, and reset the variable x at the end of draw().
 
 ```java
 float[] sizes = { 50, 65, 25 };
@@ -405,13 +405,13 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](<../../.gitbook/assets/image (11).png>)
 
 ## Step 9: Adding Interaction
 
 To show this array growing, let's add to the array each time the user clicks the mouse.
 
-In Processing, there is a built-in function called mouseClicked\(\) that runs a block of code ONLY when you click \(press and release button of\) the mouse.
+In Processing, there is a built-in function called mouseClicked() that runs a block of code ONLY when you click (press and release button of) the mouse.
 
 Put this outside of all other blocks of code/curly brackets **{ }**.
 
@@ -421,7 +421,7 @@ void mouseClicked() {
 }
 ```
 
-Every time the user clicks, a size value should be added to the sizes array. This can be done with append\(\) function. update the sizes array with the function, giving it what array is being updated and what value to add to it.
+Every time the user clicks, a size value should be added to the sizes array. This can be done with append() function. update the sizes array with the function, giving it what array is being updated and what value to add to it.
 
 This is how it looks for adding a value of 75 to sizes each time the mouse is clicked:
 
@@ -466,7 +466,7 @@ Output when played:
 
 ## Step 10: Adding Randomness
 
-The values can replaced with random\(min, max\) to add randomness to the sizes.
+The values can replaced with random(min, max) to add randomness to the sizes.
 
 Here, we are starting with only one value in the sizes array, a random number between 15 and 75.
 
@@ -541,7 +541,7 @@ Thinking of the index number as a row number, we can make other arrays with info
 Let's add random color by adding arrays for red, green, and blue values:
 
 {% hint style="info" %}
-Remember: Color values range from 0 \(black/no color\) to 255 \(brightest of that color\) and matching colors for all three values will result in shades of gray.
+Remember: Color values range from 0 (black/no color) to 255 (brightest of that color) and matching colors for all three values will result in shades of gray.
 {% endhint %}
 
 ```java
@@ -550,7 +550,7 @@ float[] green = { random(0, 255) };
 float[] blue = { random(0, 255) };
 ```
 
-Since we are creating arrays, we need to add to them at the same time as the sizes array -- in the mouseClicked\(\) function:
+Since we are creating arrays, we need to add to them at the same time as the sizes array -- in the mouseClicked() function:
 
 ```java
 void mouseClicked() {
@@ -561,7 +561,7 @@ void mouseClicked() {
 }
 ```
 
-In the while loop, we need to tell the computer to give the squares a color using fill\(red, green, blue\).
+In the while loop, we need to tell the computer to give the squares a color using fill(red, green, blue).
 
 ```java
 while (i < sizes.length) {
@@ -631,7 +631,7 @@ float[] yPos = { 10 };
 Remember to remove the original y variable.
 {% endhint %}
 
-Since we made it an array, we should update it with the others in mouseClicked\(\).
+Since we made it an array, we should update it with the others in mouseClicked().
 
 We'll use 10 as the value so each square starts at the same y value.
 
@@ -647,7 +647,7 @@ void mouseClicked() {
 
 Now the yPos value for each square can update on each frame if we update it in the while loop.
 
-REMEMBER: Update y in the rect\(\) code to be yPos\[i\] so it references the y coordinate of the specific square.
+REMEMBER: Update y in the rect() code to be yPos\[i] so it references the y coordinate of the specific square.
 
 ```java
 while (i < sizes.length) {
@@ -785,4 +785,3 @@ void mouseClicked() {
 Output when played:
 
 ![](../../.gitbook/assets/w3s13.gif)
-

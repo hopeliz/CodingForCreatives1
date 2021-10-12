@@ -10,13 +10,13 @@ The steps below walk you through the Processing activity we did during Week 1. A
 
 Remember: 
 
-* setup\(\) runs once on the first frame, draw\(\) runs once per frame until it's stopped
+* setup() runs once on the first frame, draw() runs once per frame until it's stopped
 * Think of blocks of code like packages:
   * Any opening parenthesis, curly bracket, and quotation mark need a closing one
   * Close the blocks within before the containing blocks
 * End lines of code with a semicolon
 
-Use the size\(width, height\) function within the { } of setup\(\)
+Use the size(width, height) function within the { } of setup()
 
 ```java
 void setup() { 
@@ -30,7 +30,7 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image.png)
 
 When no background color is provided in the code, this is the gray it will default to.
 
@@ -38,7 +38,7 @@ When no background color is provided in the code, this is the gray it will defau
 
 Use the 2D Primitives section in Processing.org's Reference to see what's available and what information a shape needs: [https://processing.org/reference/](https://processing.org/reference/)
 
-Here, I'll use circle\(x-position, y-position, diameter\)
+Here, I'll use circle(x-position, y-position, diameter)
 
 ```java
 void setup() { 
@@ -52,13 +52,13 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](<../../.gitbook/assets/image (1).png>)
 
-The default color for the stroke is black \(0,0,0\) and the default color for fill is white \(255, 255, 255\).
+The default color for the stroke is black (0,0,0) and the default color for fill is white (255, 255, 255).
 
 ## Step 3: Add Color
 
-Color is handled in Processing by default as red, green, and blue values ranging from 0 \(no color\) to 255 \(most saturated color\). All colors are a combination of these values. If you only put in one value, Processing assumes you want all three values to be the **same number**, making the color **a shade of gray**.
+Color is handled in Processing by default as red, green, and blue values ranging from 0 (no color) to 255 (most saturated color). All colors are a combination of these values. If you only put in one value, Processing assumes you want all three values to be the **same number**, making the color **a shade of gray**.
 
 {% hint style="info" %}
 There is a fourth value we did not cover called "alpha," which is also the color's opacity. It ranges from 0-1 with 0 making it **invisible/transparent** and 1 being completely visible.
@@ -66,10 +66,10 @@ There is a fourth value we did not cover called "alpha," which is also the color
 
 To change the color of a shape, it needs to be stated before drawing the shape. It's like telling the artist, "Here is your paint. Now, paint this..."
 
-Use stroke\(red, green, blue\) and fill\(red, green, blue\) to set the color for the stroke and fill.
+Use stroke(red, green, blue) and fill(red, green, blue) to set the color for the stroke and fill.
 
 {% hint style="info" %}
-Use noStroke\(\) or noFill\(\) without any values to have the stroke or fill removed.
+Use noStroke() or noFill() without any values to have the stroke or fill removed.
 {% endhint %}
 
 Here, I'll use a black background, a cyan fill, and a dark gray stroke.
@@ -89,11 +89,11 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](<../../.gitbook/assets/image (3).png>)
 
 ## Step 4: Using Mouse Coordinates
 
-In Processing, there are built-in variables called "mouseX" and "mouseY" that provide the value of the x-position and the y-position of the cursor while it is within the canvas. This value is updated every frame when put in the draw\(\) block.
+In Processing, there are built-in variables called "mouseX" and "mouseY" that provide the value of the x-position and the y-position of the cursor while it is within the canvas. This value is updated every frame when put in the draw() block.
 
 Let's use mouseX and mouseY instead of coordinates.
 
@@ -118,7 +118,7 @@ For each frame, the program is drawing a black background, then a cyan circle wi
 
 ## Step 5: Draw the Background Only Once
 
-Let's move the background color to the setup\(\) block so it is only drawn once and the circle is drawn repeatedly.
+Let's move the background color to the setup() block so it is only drawn once and the circle is drawn repeatedly.
 
 ```java
 void setup() { 
@@ -141,7 +141,7 @@ Looks like:
 
 Removing the stroke will make the shape appear to blend/blur together.
 
-Let's use noStroke\(\) to remove the outline.
+Let's use noStroke() to remove the outline.
 
 ```java
 void setup() { 
@@ -158,11 +158,11 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/step6.gif)
+![](../../.gitbook/assets/Step6.gif)
 
 ## Step 7: Add Some Randomness to Size
 
-**random\(min, max\)** is a common function that takes a minimum number and a maximum number and provides a "random" number between them.
+**random(min, max)** is a common function that takes a minimum number and a maximum number and provides a "random" number between them.
 
 Let's use it first on the size of the circle, making the diameter somewhere between 1 and 75 pixels.
 
@@ -181,7 +181,7 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/step7.gif)
+![](../../.gitbook/assets/Step7.gif)
 
 ## Step 8: Add Randomness to the Red Values
 
@@ -202,9 +202,9 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/step8.gif)
+![](../../.gitbook/assets/Step8.gif)
 
-Since both green and blue values are at their maximum, increases in the red value bring the color closer to white \(255, 255, 255\).
+Since both green and blue values are at their maximum, increases in the red value bring the color closer to white (255, 255, 255).
 
 ## Step 9: Add More Randomness
 
@@ -225,7 +225,7 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/step9.gif)
+![](../../.gitbook/assets/Step9.gif)
 
 ## Step 10: Using a Variable
 
@@ -245,16 +245,16 @@ The single equals sign = is a way of "assigning" or "setting" the value of a var
 It is good practice to have a starting or "initial" value to avoid errors.
 {% endhint %}
 
-Put variables that will be used for the project before and outside of the setup\(\) and draw\(\) blocks. We want these to be accessed outside of those restrictions.
+Put variables that will be used for the project before and outside of the setup() and draw() blocks. We want these to be accessed outside of those restrictions.
 
-To declare a variable, use this syntax:  
-_type_ nameOfVariable = _initialValue_;
+To declare a variable, use this syntax:\
+_type _nameOfVariable = _initialValue_;
 
 ```java
 float lastXPosition = 0;
 ```
 
-Once you create a variable, you can update it within the draw\(\) block:
+Once you create a variable, you can update it within the draw() block:
 
 ```java
 lastXPosition = mouseX;
@@ -276,7 +276,7 @@ That looks like this:
 mouseX - lastXPosition
 ```
 
-However, this could give negative values. Lets use a built-in math function for "absolute power" or abs\(value\) to make the value positive.
+However, this could give negative values. Lets use a built-in math function for "absolute power" or abs(value) to make the value positive.
 
 That looks like this:
 
@@ -304,7 +304,5 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/step10.gif)
-
-
+![](../../.gitbook/assets/Step10.gif)
 

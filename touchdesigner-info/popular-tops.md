@@ -1,8 +1,8 @@
 # Popular TOPs
 
-Texture operators \(TOPs\) are colored purple and manipulate 2D images and videos.
+Texture operators (TOPs) are colored purple and manipulate 2D images and videos.
 
-![](../.gitbook/assets/image%20%28179%29.png)
+![](<../.gitbook/assets/image (154).png>)
 
 ## Basics
 
@@ -10,19 +10,19 @@ Texture operators \(TOPs\) are colored purple and manipulate 2D images and video
 
 Provides a snapshot of sorts of a point within your network. Commonly used to help look at the effects of major changes later and remove them easily when necessary.
 
-![](../.gitbook/assets/image%20%28172%29.png)
+![](<../.gitbook/assets/image (162).png>)
 
 ### Constant TOP
 
 Provides a solid color chosen by a color picker or RGB values. Can adjust transparency.
 
-![](../.gitbook/assets/image%20%28175%29.png)
+![](<../.gitbook/assets/image (163).png>)
 
 ### Noise TOP
 
 For when you want some randomness.
 
-![With Monochrome off](../.gitbook/assets/image%20%28158%29.png)
+![With Monochrome off](<../.gitbook/assets/image (164).png>)
 
 {% hint style="info" %}
 Using **absTime.seconds** in different parameters can make this move!
@@ -32,7 +32,7 @@ Using **absTime.seconds** in different parameters can make this move!
 
 ### Switch TOP
 
-Takes in multiple texture operators \(TOPS\) and creates an array. A single element of the array can be accessed by the Switch TOP's Index parameter. ALSO, for TOPs, you can blend between each element. This is great for fading in and out images and videos or representing number values as shades of color.
+Takes in multiple texture operators (TOPS) and creates an array. A single element of the array can be accessed by the Switch TOP's Index parameter. ALSO, for TOPs, you can blend between each element. This is great for fading in and out images and videos or representing number values as shades of color.
 
 ![](../.gitbook/assets/tdswitchtop.gif)
 
@@ -42,7 +42,7 @@ Provides a visual "copy" that references another texture operator. This is great
 
 Click and drag the original TOP into the Select TOP or type in the original TOP's name in the Select TOP's parameter.
 
-![](../.gitbook/assets/image%20%28194%29.png)
+![](<../.gitbook/assets/image (193).png>)
 
 ## Effects
 
@@ -50,25 +50,25 @@ Click and drag the original TOP into the Select TOP or type in the original TOP'
 
 Where you access elements such as contrast, brightness, gamma, etc.
 
-![](../.gitbook/assets/image%20%28195%29.png)
+![](<../.gitbook/assets/image (192).png>)
 
 ### Blur TOP
 
 Adds Blur
 
-![](../.gitbook/assets/image%20%28138%29.png)
+![](<../.gitbook/assets/image (155).png>)
 
 ### Crop TOP
 
 Crops image
 
-![](../.gitbook/assets/image%20%28154%29.png)
+![](<../.gitbook/assets/image (159).png>)
 
 ### Mirror TOP
 
 Mirrors part of the image.
 
-![](../.gitbook/assets/image%20%28159%29.png)
+![](<../.gitbook/assets/image (165).png>)
 
 ## Shapes / Primitives / Transforms
 
@@ -76,13 +76,13 @@ Mirrors part of the image.
 
 Creates shapes or text
 
-![](../.gitbook/assets/image%20%28184%29.png)
+![](<../.gitbook/assets/image (157).png>)
 
 ### Transform TOP
 
 Manipulates position, rotation, scale, etc.
 
-![](../.gitbook/assets/image%20%28171%29.png)
+![](<../.gitbook/assets/image (158).png>)
 
 ## Images and Videos
 
@@ -90,7 +90,7 @@ Manipulates position, rotation, scale, etc.
 
 Load any image or video. This banana image is a default image.
 
-![](../.gitbook/assets/image%20%28143%29.png)
+![](<../.gitbook/assets/image (180).png>)
 
 ### Movie File Out TOP
 
@@ -112,9 +112,7 @@ The best one is Composite TOP where you can choose the mode within the parameter
 
 Blends two TOP operators into a single image - similar to blending two Photoshop layers. The layer mode can be updated through the Operation parameter.
 
-![](../.gitbook/assets/image%20%28163%29.png)
+![](<../.gitbook/assets/image (160).png>)
 
-![](../.gitbook/assets/image%20%28153%29.png)
-
-
+![](<../.gitbook/assets/image (161).png>)
 

@@ -21,7 +21,7 @@ if (Input.GetKeyDown(KeyCode.Space) == true)
 }
 ```
 
-**Input** is a class and we use the dot to access the class' **GetKeyDown\(\)** function.
+**Input** is a class and we use the dot to access the class' **GetKeyDown()** function.
 
 **KeyCode** is not a class, but is similar, proving the key code for Space.
 
@@ -35,7 +35,7 @@ If we have access to a game object in Unity, we can dig deeper and get to its Tr
 gameObject.GetComponent<SpriteRenderer>().sprite
 ```
 
-In Unity, we can access any Component on a game object using GetComponent&lt;NameOfComponent&gt;\(\) and then a dot to go into the component to access its variables and functions.
+In Unity, we can access any Component on a game object using GetComponent\<NameOfComponent>() and then a dot to go into the component to access its variables and functions.
 
 ```csharp
 public void OnCollisionEnter2D(Collision2D collision)
@@ -47,4 +47,3 @@ public void OnCollisionEnter2D(Collision2D collision)
 ```
 
 When a function provides information such as a Collision2D type here named collision, we can use it to access the game object and all its features.
-

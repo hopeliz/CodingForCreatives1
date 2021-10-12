@@ -7,13 +7,13 @@
 
 **Big scale example:** Opening and exiting a program
 
-**Small scale example:** Running only under certain conditions \(turning on a switch, etc.\)
+**Small scale example:** Running only under certain conditions (turning on a switch, etc.)
 
 {% hint style="info" %}
 Some programs can continuously play while you are updating the code. Be sure to see if code updated while being played is saved when it is stopped.
 {% endhint %}
 
-## Setup\(\) and Loop\(\)
+## Setup() and Loop()
 
 * many languages have and require two basic blocks of code
 
@@ -38,4 +38,3 @@ Remember! Some computers run around 60 frames per second!
 {% hint style="info" %}
 Sometimes the code appears to not run this way, but it's often due to the speed of the computer. Using small increments in values, durations, lags, waits, and pauses can help slow down visuals.
 {% endhint %}
-

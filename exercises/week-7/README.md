@@ -2,9 +2,11 @@
 
 Here are the step-by-step activities for Week 7.
 
-{% page-ref page="week-7-a-mario-coins-apple-catch.md" %}
+{% content-ref url="week-7-a-mario-coins-apple-catch.md" %}
+[week-7-a-mario-coins-apple-catch.md](week-7-a-mario-coins-apple-catch.md)
+{% endcontent-ref %}
 
-{% page-ref page="week-7-b-raycasting-example.md" %}
-
-
+{% content-ref url="week-7-b-raycasting-example.md" %}
+[week-7-b-raycasting-example.md](week-7-b-raycasting-example.md)
+{% endcontent-ref %}
 

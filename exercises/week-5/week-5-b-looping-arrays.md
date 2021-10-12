@@ -16,7 +16,7 @@ Why?
 
 Displaying text is similar to displaying a shape.
 
-Start by giving the text a color, then use text\(\) to provide the message and where to put it.
+Start by giving the text a color, then use text() to provide the message and where to put it.
 
 ```java
 void setup() {
@@ -39,11 +39,11 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](<../../.gitbook/assets/image (15).png>)
 
 ## Step 2: Create an Array and Display Each Item
 
-Println\(\) will separate lines in a console, but in the canvas, we need to change the y value to create space between each text\(\) object.
+Println() will separate lines in a console, but in the canvas, we need to change the y value to create space between each text() object.
 
 ```java
 String[] pets = { "dog", "igauna", "hamster" };
@@ -74,11 +74,11 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](<../../.gitbook/assets/image (16).png>)
 
 ## Step 3: Moving the Array into a For Loop
 
-As you can see, the full array appears, but only because we have 3 lines of code in our draw\(\).
+As you can see, the full array appears, but only because we have 3 lines of code in our draw().
 
 Every time we update this array, we would need to add or remove these lines.
 
@@ -97,9 +97,9 @@ For loops use control variables - an integer - that updates at the end of each r
 
 One of the neat things about arrays is their "length" property. It provides the count of items in an array.
 
-Since the array index starts with zero, the index will never go higher than the length of an array minus one \(or array.length - 1\).
+Since the array index starts with zero, the index will never go higher than the length of an array minus one (or array.length - 1).
 
-To move to the next item in the array, we want the control variable _i_ to increase by 1. The shortcut for this is i++.
+To move to the next item in the array, we want the control variable _i _to increase by 1. The shortcut for this is i++.
 
 Putting the control variable, the loop's limits, and a way to update it looks like this:
 
@@ -118,7 +118,7 @@ Add curly backets { } to this for loop and put what you want to happen inside th
 
 We initialize i and later, it resets to 0 with the loop, BUT we don't reset the y value, so it continues to add the spacing value. So the array appears to display really fast and go off the bottom of the canvas.
 
-Add a line of code before the end curly bracket } of draw\(\) so it resets for each frame.
+Add a line of code before the end curly bracket } of draw() so it resets for each frame.
 
 ```java
 y = 50;
@@ -155,7 +155,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](<../../.gitbook/assets/image (17).png>)
 
 Now, you can add and remove items from the array without having to change any other code:
 
@@ -188,5 +188,4 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2819%29.png)
-
+![](<../../.gitbook/assets/image (18).png>)

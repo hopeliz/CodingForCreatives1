@@ -16,7 +16,7 @@
 </html>
 ```
 
-Example &lt;div&gt; tags:
+Example \<div> tags:
 
 ```markup
 <!-- default div tags -->
@@ -55,6 +55,4 @@ CSS file the code above references:
     font-size: 10pt;
 }
 ```
-
-
 

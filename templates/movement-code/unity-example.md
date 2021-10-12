@@ -1,4 +1,4 @@
-# Unity Example \(3D\)
+# Unity Example (3D)
 
 {% hint style="danger" %}
 You must either name your new script PlayerMovement.cs OR update this code after the word "class" to the name of your script.
@@ -13,7 +13,7 @@ For jump to work, be sure to add a Rigidbody component to the object. If the obj
 {% endhint %}
 
 {% hint style="info" %}
-This code uses shortcuts. \(See below the code.\)
+This code uses shortcuts. (See below the code.)
 {% endhint %}
 
 ```csharp
@@ -70,14 +70,13 @@ public class PlayerMovement : MonoBehaviour
 
 #### **Vector3 Shortcuts:**
 
-| Shortcut | Equivalent |
-| :--- | :--- |
-| Vector3.up | Vector3\(0, 1, 0\) |
-| Vector3.down | Vector3\(0, -1, 0\) |
-| Vector3.left | Vector3\(-1, 0, 0\) |
-| Vector3.right | Vector3\(1, 0, 0\) |
-| Vector3.foward | Vector3\(0, 0, 1\) |
-| Vector3.back | Vector3\(0, 0, -1\) |
+| Shortcut       | Equivalent        |
+| -------------- | ----------------- |
+| Vector3.up     | Vector3(0, 1, 0)  |
+| Vector3.down   | Vector3(0, -1, 0) |
+| Vector3.left   | Vector3(-1, 0, 0) |
+| Vector3.right  | Vector3(1, 0, 0)  |
+| Vector3.foward | Vector3(0, 0, 1)  |
+| Vector3.back   | Vector3(0, 0, -1) |
 
 These can be multiplied and divided as an easy way to adjust the value on just one axis.
-

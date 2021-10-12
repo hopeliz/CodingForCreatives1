@@ -2,7 +2,7 @@
 
 Here are the step-by-step activity for Week 3.
 
-{% page-ref page="week-3-moving-squares-exercise.md" %}
-
-
+{% content-ref url="week-3-moving-squares-exercise.md" %}
+[week-3-moving-squares-exercise.md](week-3-moving-squares-exercise.md)
+{% endcontent-ref %}
 

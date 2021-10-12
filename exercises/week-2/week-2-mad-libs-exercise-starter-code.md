@@ -42,13 +42,13 @@ void setup() {
 
 If played, the console shows this:
 
-> One \(adjective 1\) and \(adjective 2\) \(time of day\), \(name\) was delivered a\(n\) \(object 1\) by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to \(name\), not only because the \(object 1\) could have been sent through the regular mail, but because \(pronoun\) was/were\(number higher than 20\) years old.   
->   
-> The letter said classes start in \(whole number 1\) days and that \(pronoun\) has/have to go to Diagon Ally to pick up three things:  a set of textbooks that \(action 1\), a pet \(animal or creature\), and \(whole number 2\) \(type of container 1\)s of \(measurement number\)-ounce of potion starter base \(also known as \(liquid\)\). \(type of container 2\)s are provided. \(name\) was unfamiliar with Diagon Ally and wandered the town of \(object 2\)ville. \(Pronoun\) easily found a stray \(animal\), which \(pronoun\) named \(adjective  3\)\(object 3\) and it was the most \(adjective 4\) \(animal\) \(pronoun\) had/have ever seen!   
->   
-> \(Name\) couldn't find any potion starter base - especially not the \(total number of ounces\) ounces needed, but luckily found a textbook that \(action\)ed.   
->   
-> Despite the struggles, \(pronoun\) made friends with other witches, wizards, \(type of person 1\)s , and \(type of person 2\)s andexcelled in school.
+> One (adjective 1) and (adjective 2) (time of day), (name) was delivered a(n) (object 1) by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to (name), not only because the (object 1) could have been sent through the regular mail, but because (pronoun) was/were(number higher than 20) years old. \
+> \
+> The letter said classes start in (whole number 1) days and that (pronoun) has/have to go to Diagon Ally to pick up three things:  a set of textbooks that (action 1), a pet (animal or creature), and (whole number 2) (type of container 1)s of (measurement number)-ounce of potion starter base (also known as (liquid)). (type of container 2)s are provided. (name) was unfamiliar with Diagon Ally and wandered the town of (object 2)ville. (Pronoun) easily found a stray (animal), which (pronoun) named (adjective  3)(object 3) and it was the most (adjective 4) (animal) (pronoun) had/have ever seen! \
+> \
+> (Name) couldn't find any potion starter base - especially not the (total number of ounces) ounces needed, but luckily found a textbook that (action)ed. \
+> \
+> Despite the struggles, (pronoun) made friends with other witches, wizards, (type of person 1)s , and (type of person 2)s andexcelled in school.>
 
 ## Step 1: Create Needed Variables
 
@@ -56,7 +56,7 @@ Variables in Processing need to have their data type declared along with the nam
 
 The naming convention for variable names is using descriptive short phrases/names and [camel case](../../glossary/variables/declaring-variables.md#naming-conventions).
 
-Since you might want to use these variables in more than just setup\(\) or draw\(\), create them outside the setup\(\) and draw\(\) functions at the top of the code. This will allow any block to access the variables.
+Since you might want to use these variables in more than just setup() or draw(), create them outside the setup() and draw() functions at the top of the code. This will allow any block to access the variables.
 
 ```java
 String adj1 = "manic";
@@ -90,12 +90,12 @@ In Week 3, we will look at ways to make one variable hold all 4 adjectives, all 
 
 Replace the areas in the parentheses with the variable.
 
-**REMEMBER:** To put in the variables, you must:
+**REMEMBER: **To put in the variables, you must:
 
-1. End the string with a quotation symbol \(a double quote is used in this activity\)
-2. Use the concatenator symbol \( + \).
+1. End the string with a quotation symbol (a double quote is used in this activity)
+2. Use the concatenator symbol ( + ).
 3. The variable name.
-4. Another concatenator symbol \( + \).
+4. Another concatenator symbol ( + ).
 5. Then begin the string again with a quotation symbol.
 
 Example:
@@ -111,7 +111,7 @@ println("That is a " + adj1 + " " + animal + "!");
 ```
 
 {% hint style="warning" %}
-Remember to end the string and add a concatenator \( + \) symbol at the end of a line if you break the line up to be readable. Also, restart the string on the next line. End the full line of code with a semicolon \( ; \).
+Remember to end the string and add a concatenator ( + ) symbol at the end of a line if you break the line up to be readable. Also, restart the string on the next line. End the full line of code with a semicolon ( ; ).
 {% endhint %}
 
 The result will look like:
@@ -177,21 +177,21 @@ obj3 + " and it was the most " + adj4 + " " + animal + " " + pronoun + " had/hav
 
 The output will look like this:
 
-> One manic and shiny dusk, Bartholowmew was delivered a\(n\) orb by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to Bartholowmew, not only because the orb could have been sent through the regular mail, but because they was/were 21.1 years old.
+> One manic and shiny dusk, Bartholowmew was delivered a(n) orb by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to Bartholowmew, not only because the orb could have been sent through the regular mail, but because they was/were 21.1 years old.
 >
-> The letter said classes start in 19 days and that they has/have to go to Diagon Ally to pick up three things: a set of textbooks that burst, a pet owl, and 4007 potion bottles of 2.6-ounce of potion starter base \(also known as Razzwheat Gaterade\). tupperwares are provided. Bartholowmew was unfamiliar with Diagon Ally and wandered the town of wandville. they easily found a stray owl, which they named uncomfortable flying car and it was the most rainy owl they had/have ever seen! Bartholowmew couldn't find any potion starter base - especially not the 10418.199 ounces needed, but luckily found a textbook that bursted.
+> The letter said classes start in 19 days and that they has/have to go to Diagon Ally to pick up three things: a set of textbooks that burst, a pet owl, and 4007 potion bottles of 2.6-ounce of potion starter base (also known as Razzwheat Gaterade). tupperwares are provided. Bartholowmew was unfamiliar with Diagon Ally and wandered the town of wandville. they easily found a stray owl, which they named uncomfortable flying car and it was the most rainy owl they had/have ever seen! Bartholowmew couldn't find any potion starter base - especially not the 10418.199 ounces needed, but luckily found a textbook that bursted.
 >
 > Despite the struggles, they made friends with other witches, wizards, Half man half snakes, and Clones and excelled in school.
 
 ### Notation
 
-Certain notation can be used within strings to accomplish things like creating a new line \(equivalent to pressing the enter or return key\), inserting an apostrophe when single quotes are used, inserting a tab, etc.
+Certain notation can be used within strings to accomplish things like creating a new line (equivalent to pressing the enter or return key), inserting an apostrophe when single quotes are used, inserting a tab, etc.
 
-**\n** = new line  
-**\r** = carriage return  
-**\t** = tab  
-**\'** = apostrophe \(to use when single quotes are used for a string\)  
-**\"** = quotation marks \(to use when double quotes are used for a string\)
+**\n **= new line\
+**\r **= carriage return\
+**\t **= tab\
+**\\' **= apostrophe (to use when single quotes are used for a string)\
+**\\"** = quotation marks (to use when double quotes are used for a string)
 
 ## **Step 3: Polishing It a Little**
 
@@ -201,11 +201,11 @@ Some languages have functions that can capitalize just the first letter, but Pro
 
 To capitalize the first letter and leave the rest lowercase, we can use two substrings. Substrings are parts of a defined string.
 
-_.substring\(index of first letter\)_ starts the string with the index/location of the first letter.
+_.substring(index of first letter) _starts the string with the index/location of the first letter.
 
-_.substring\(index of first letter, index of limit letter\)_ starts the string with the index/location of the first letter and ends on the letter before the limit letter
+_.substring(index of first letter, index of limit letter)_ starts the string with the index/location of the first letter and ends on the letter before the limit letter
 
-You can add more effects/functions to the string by attaching them. For example, add _.toUpperCase\(\)_ to make the substring uppercase.
+You can add more effects/functions to the string by attaching them. For example, add _.toUpperCase()_ to make the substring uppercase.
 
 Example:
 
@@ -287,9 +287,9 @@ typeOfPerson2 + "s and" + " excelled in school.");
 
 The output looks like this:
 
-> One manic and shiny dusk, Bartholowmew was delivered a\(n\) orb by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to Bartholowmew, not only because the orb could have been sent through the regular mail, but because they was/were 21.1 years old.
+> One manic and shiny dusk, Bartholowmew was delivered a(n) orb by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to Bartholowmew, not only because the orb could have been sent through the regular mail, but because they was/were 21.1 years old.
 >
-> The letter said classes start in 19 days and that they has/have to go to Diagon Ally to pick up three things: a set of textbooks that burst, a pet owl, and 4007 potion bottles of 2.6-ounce of potion starter base \(also known as Razzwheat Gaterade\). Tupperwares are provided. Bartholowmew was unfamiliar with Diagon Ally and wandered the town of Wandville. They easily found a stray owl, which they named uncomfortable flying car and it was the most rainy owl they had/have ever seen! Bartholowmew couldn't find any potion starter base - especially not the 10418.199 ounces needed, but luckily found a textbook that bursted.
+> The letter said classes start in 19 days and that they has/have to go to Diagon Ally to pick up three things: a set of textbooks that burst, a pet owl, and 4007 potion bottles of 2.6-ounce of potion starter base (also known as Razzwheat Gaterade). Tupperwares are provided. Bartholowmew was unfamiliar with Diagon Ally and wandered the town of Wandville. They easily found a stray owl, which they named uncomfortable flying car and it was the most rainy owl they had/have ever seen! Bartholowmew couldn't find any potion starter base - especially not the 10418.199 ounces needed, but luckily found a textbook that bursted.
 >
 > Despite the struggles, they made friends with other witches, wizards, Half man half snakes, and Clones and excelled in school.
 
@@ -297,7 +297,7 @@ The output looks like this:
 
 You can also turn large numbers into strings that properly format the number with commas and rounding.
 
-For this example, we can use the Processing function _nfc\(number, number of decimals\)_.
+For this example, we can use the Processing function _nfc(number, number of decimals)_.
 
 ```java
 "...not the " + num3 * measurement + " ounces needed..."
@@ -369,9 +369,8 @@ typeOfPerson2 + "s and" + " excelled in school.");
 
 Output:
 
-> One manic and shiny dusk, Bartholowmew was delivered a\(n\) orb by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to Bartholowmew, not only because the orb could have been sent through the regular mail, but because they was/were 21.1 years old.
+> One manic and shiny dusk, Bartholowmew was delivered a(n) orb by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to Bartholowmew, not only because the orb could have been sent through the regular mail, but because they was/were 21.1 years old.
 >
-> The letter said classes start in 19 days and that they has/have to go to Diagon Ally to pick up three things: a set of textbooks that burst, a pet owl, and 4007 potion bottles of 2.6-ounce of potion starter base \(also known as Razzwheat Gaterade\). Tupperwares are provided. Bartholowmew was unfamiliar with Diagon Ally and wandered the town of Wandville. They easily found a stray owl, which they named uncomfortable flying car and it was the most rainy owl they had/have ever seen! Bartholowmew couldn't find any potion starter base - especially not the 10,418.20 ounces needed, but luckily found a textbook that bursted.
+> The letter said classes start in 19 days and that they has/have to go to Diagon Ally to pick up three things: a set of textbooks that burst, a pet owl, and 4007 potion bottles of 2.6-ounce of potion starter base (also known as Razzwheat Gaterade). Tupperwares are provided. Bartholowmew was unfamiliar with Diagon Ally and wandered the town of Wandville. They easily found a stray owl, which they named uncomfortable flying car and it was the most rainy owl they had/have ever seen! Bartholowmew couldn't find any potion starter base - especially not the 10,418.20 ounces needed, but luckily found a textbook that bursted.
 >
 > Despite the struggles, they made friends with other witches, wizards, Half man half snakes, and Clones and excelled in school.
-

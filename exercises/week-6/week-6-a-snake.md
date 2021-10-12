@@ -4,7 +4,7 @@ This is the beginning of a snake game using a combination of elements you have l
 
 ## Step 1: Create the Play Space and Player
 
-Create a 600 x 600 size canvas that has a black background and a 25 x 25 square at coordinates \(50, 50\).
+Create a 600 x 600 size canvas that has a black background and a 25 x 25 square at coordinates (50, 50).
 
 ```java
 void setup() {
@@ -20,21 +20,21 @@ void draw() {
 
 Let's look at the functions already used:
 
-**setup\(\)** and **draw\(\)**
+**setup() **and **draw()**
 
-For each of these functions, they start with "void" meaning there's no **return** value or output. They exist to just run code. The parentheses are empty meaning there are no arguments or input needed for the function to run correctly. Here, we are creating these functions and Processing knows these specific functions have specific actions \(setup runs once, draw runs on every frame\).
+For each of these functions, they start with "void" meaning there's no **return** value or output. They exist to just run code. The parentheses are empty meaning there are no arguments or input needed for the function to run correctly. Here, we are creating these functions and Processing knows these specific functions have specific actions (setup runs once, draw runs on every frame).
 
-**size\(\)** or **size\(float width, float height\)**
+**size() **or **size(float width, float height)**
 
 Here, we are "calling" or "invoking" a built-in function. The two values we provide in the parentheses are "arguments" or the input for the width and height. Without these values, the function will not work. However, there is a default size for Processing.
 
-**rectMode\(\)** - takes a mode to know how to handle rectangles and squares
+**rectMode() **- takes a mode to know how to handle rectangles and squares
 
-**background\(\)** or **background\(float grayscale\)** or **background\(float red, float green, float blue\)** or **background\(float red, float green, float blue, float alpha\)**
+**background()** or **background(float grayscale) **or **background(float red, float green, float blue)** or **background(float red, float green, float blue, float alpha)**
 
 This is a good example of how four different functions can have the same name and ren different code based on the number of arguments. One argument will provide the grayscale or the equivalent of having all three colors the same value. The ones with one or three arguments all have a default alpha of 1. If you use all four arguments, the colors are 0-255 and the alpha is 0-1.
 
-**square\(\)** or **square\(float x, float y, float size\)**
+**square() **or **square(float x, float y, float size)**
 
 This is actually more like an object in Processing, but it can be seen as a function as well with three arguments - x coordinate, y coordinate, and the size.
 
@@ -58,7 +58,7 @@ void draw() {
 
 Output:
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](<../../.gitbook/assets/image (76).png>)
 
 ## Step 3: Add Movement
 
@@ -87,7 +87,7 @@ void draw() {
 
 However, this creates a smooth movement:
 
-![](../../.gitbook/assets/week6as3.gif)
+![](../../.gitbook/assets/Week6As3.gif)
 
 We want it to be jumpier like the old snake game, so let's add a delay between the movements.
 
@@ -100,7 +100,7 @@ float delay;
 float delayReset = 30;
 ```
 
-Set delay to the delayReset value in setup\(\)
+Set delay to the delayReset value in setup()
 
 ```java
 void setup() {
@@ -137,7 +137,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/week6as3b.gif)
+![](../../.gitbook/assets/Week6As3b.gif)
 
 ## Step 4: Add Other Directions and Keyboard Input
 
@@ -183,7 +183,7 @@ if (delay <= 0) {
 ...
 ```
 
-Add the **keyPressed\(\)** function. Like setup\(\) and draw\(\), you are creating a function, but Processing handles the specifically named function to provide information. The one we make will not have a return value or take any arguments.
+Add the **keyPressed()** function. Like setup() and draw(), you are creating a function, but Processing handles the specifically named function to provide information. The one we make will not have a return value or take any arguments.
 
 ```java
 void keyPressed() {
@@ -286,11 +286,11 @@ void keyPressed() {
 
 Output when played and pressing arrow keys:
 
-![](../../.gitbook/assets/week6as4.gif)
+![](../../.gitbook/assets/Week6As4.gif)
 
 ## Step 5: Add a Target
 
-Add another square as a target with variables to hold its x and y coordinates \(but don't set them!\). Let's also make the player white and the target red.
+Add another square as a target with variables to hold its x and y coordinates (but don't set them!). Let's also make the player white and the target red.
 
 ```java
 float targetX;
@@ -326,9 +326,9 @@ void resetTarget() {
 }
 ```
 
-It doesn't need to output any info and no information is needed since size is a "global" variable \(listed at the top of the script\). The variable **offset** here is an example of a "local" variable - created and only usable within this function.
+It doesn't need to output any info and no information is needed since size is a "global" variable (listed at the top of the script). The variable **offset** here is an example of a "local" variable - created and only usable within this function.
 
-Now, call this function in the setup\(\) function so the target has a start location.
+Now, call this function in the setup() function so the target has a start location.
 
 ```java
 void setup() {
@@ -341,7 +341,7 @@ void setup() {
 
 Output when played:
 
-![Note: the target will be in a random location](../../.gitbook/assets/week6as5.gif)
+![Note: the target will be in a random location](../../.gitbook/assets/Week6As5.gif)
 
 ## Step 6: Target Interaction
 
@@ -370,7 +370,7 @@ boolean touchingTarget(float playerX, float playerY) {
 
 playerX and playerY are parameters here - needed information for the function to run. The information given as _arguments_ should match the data types and playerX and playerY serve as temporary variables within the function.
 
-Now, we can use it in the draw\(\) function to check if the player is touching the target and when it is, the target coordinates update.
+Now, we can use it in the draw() function to check if the player is touching the target and when it is, the target coordinates update.
 
 ```java
 if (touchingTarget(x, y) == true) {
@@ -496,7 +496,7 @@ boolean touchingTarget(float playerX, float playerY) {
 
 Output when played:
 
-![](../../.gitbook/assets/week6as6.gif)
+![](../../.gitbook/assets/Week6As6.gif)
 
 ## Step 7: Making It Snake
 
@@ -509,7 +509,7 @@ float[] x = { 50 };
 float[] y = { 50 };
 ```
 
-In our if statements, update x and y to x\[0\] and y\[0\]. We will be changing the direction of the front square only.
+In our if statements, update x and y to x\[0] and y\[0]. We will be changing the direction of the front square only.
 
 ```java
 void draw() {
@@ -574,7 +574,7 @@ if (touchingTarget(x[0], y[0]) == true) {
 ...
 ```
 
-To see the squares, we need to draw them with a loop toward the end of draw\(\)
+To see the squares, we need to draw them with a loop toward the end of draw()
 
 This replaces the player square.
 
@@ -721,11 +721,10 @@ boolean touchingTarget(float playerX, float playerY) {
 
 Output when played at 5 times the speed:
 
-![](../../.gitbook/assets/week6as6b.gif)
+![](../../.gitbook/assets/Week6As6b.gif)
 
 ## Your Turn!
 
 This is just the beginning - see if you can code boundaries to show "Game Over" when the player hits the edge of the canvas or its own tail. Also, see if you can code the target to not appear on the snake.
 
 This is all optional, of course.
-

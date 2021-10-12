@@ -21,5 +21,3 @@ Printing information in the console:
 println("I'm a message!");  
 ```
 
-
-

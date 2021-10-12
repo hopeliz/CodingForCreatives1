@@ -22,7 +22,7 @@ int amountAsInt = int(amount);
 // now amountAsInt can be used where an integer is needed
 ```
 
-_C\# example:_
+_C# example:_
 
 ```csharp
 int count = 3;
@@ -39,4 +39,3 @@ countAsFloat = float(count)
 
 # now countAsFloat can be used where a float is needed
 ```
-

@@ -4,7 +4,7 @@ The steps below walk you through the Processing activity we did during Week 4. A
 
 ## Step 1: Create a Canvas and Player
 
-Create a canvas in setup\(\) and a "player" that will move - I'm using a square here.
+Create a canvas in setup() and a "player" that will move - I'm using a square here.
 
 ```java
 void setup() {
@@ -17,13 +17,13 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](<../../.gitbook/assets/image (12).png>)
 
 You'll notice that the square isn't in the center.
 
 Why?
 
-The default mode for rectangles/squares in Processing puts the origin at the top left. To put it in the center, we need to change the rectMode\(\) before we draw the rectangle.
+The default mode for rectangles/squares in Processing puts the origin at the top left. To put it in the center, we need to change the rectMode() before we draw the rectangle.
 
 ```java
 void setup() {
@@ -40,7 +40,7 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](<../../.gitbook/assets/image (13).png>)
 
 ## Step 2: Use Variables Instead of Values
 
@@ -64,9 +64,9 @@ void setup() {
 
 ## Step 3: Adding Interaction
 
-Processing has a built-in function called keyPressed\(\) that runs when a key is pressed on the keyboard. The key that is pressed gets stored as a char type \(like a one-character string\).
+Processing has a built-in function called keyPressed() that runs when a key is pressed on the keyboard. The key that is pressed gets stored as a char type (like a one-character string).
 
-Copy and paste the rect\(\) code into a keyPressed\(\) function outside and after the setup\(\) function.
+Copy and paste the rect() code into a keyPressed() function outside and after the setup() function.
 
 ```java
 void keyPressed() {
@@ -88,7 +88,7 @@ void keyPressed() {
 }
 ```
 
-Since this new function draws a rectangle, we need a draw\(\) function. Let's put it between the setup\(\) and keyPressed\(\).
+Since this new function draws a rectangle, we need a draw() function. Let's put it between the setup() and keyPressed().
 
 Here is the full code so far:
 
@@ -127,7 +127,7 @@ This movement will happen with any key.
 
 As you can see, only the square is being drawn over itself.
 
-To make it look like the square is moving instead of being redrawn, add code to draw a background prior to the square in both setup\(\) and keyPressed\(\). Here, the background is black:
+To make it look like the square is moving instead of being redrawn, add code to draw a background prior to the square in both setup() and keyPressed(). Here, the background is black:
 
 ```java
 float x = 300;
@@ -200,16 +200,16 @@ void keyPressed() {
 ```
 
 {% hint style="danger" %}
-key is a char type variable. It's one of the few times when you MUST use single quotes for the 'w' \(comparison value\).
+key is a char type variable. It's one of the few times when you MUST use single quotes for the 'w' (comparison value).
 {% endhint %}
 
-Output when played \(keys pressed added to the graphic\):
+Output when played (keys pressed added to the graphic):
 
 ![](../../.gitbook/assets/w4s4.gif)
 
 ## Step 5: Add Other Directions
 
-Copy and paste the if statement or practice typing the if statement and update the comparison value \(checking what key to match\) and changing the direction y will change.
+Copy and paste the if statement or practice typing the if statement and update the comparison value (checking what key to match) and changing the direction y will change.
 
 ```java
 ...
@@ -231,7 +231,7 @@ void keyPressed() {
 }
 ```
 
-Copy and paste the two if statements or practice typing them and update the axis and the comparison value \(checking what key to match\).
+Copy and paste the two if statements or practice typing them and update the axis and the comparison value (checking what key to match).
 
 ```java
 ...
@@ -267,7 +267,7 @@ void keyPressed() {
 
 Right now, this code only works when the CAPSLOCK is off. To avoid errors, let's say to also run the code with the upper case of each.
 
-We can add a second "test" to the if statements with the logical operator, OR, which is written as "pipes" or \|\| between the tests.
+We can add a second "test" to the if statements with the logical operator, OR, which is written as "pipes" or || between the tests.
 
 With OR, only one of the tests have to be true for the code to run.
 
@@ -350,9 +350,7 @@ void keyPressed() {
 }
 ```
 
-Output when played \(keys pressed added to the graphic\):
+Output when played (keys pressed added to the graphic):
 
 ![](../../.gitbook/assets/w4s5.gif)
-
-
 

@@ -6,7 +6,7 @@ Runs while the conditions following “while” are true - possibly forever!
 
 ### While loop example
 
-**Processing, Java, C\#:**
+**Processing, Java, C#:**
 
 ```java
 int count = 0;
@@ -30,17 +30,16 @@ while (count < 5) {
 
 Both will print:
 
-> 0  
-> 1  
-> 2  
-> 3  
+> 0\
+> 1\
+> 2\
+> 3\
 > 4
 
 Here:
 
-1. Type: while **\(line 3\)**
-2. Initialization: int count = 0; and var count = 0;   **\(line 1\)**
-3. Conditions: \(count &lt; 5\)  **\(line 3\)**      \(only runs the loop code when the count is 0-4\)
-4. Update: count++;   **\(line 5\)**
-5. Action: println\(count\);   **\(line 4\)**  \(prints the current value of count\)
-
+1. Type: while **(line 3)**
+2. Initialization: int count = 0; and var count = 0;   **(line 1)**
+3. Conditions: (count < 5)  **(line 3)**      (only runs the loop code when the count is 0-4)
+4. Update: count++;   **(line 5)**
+5. Action: println(count);   **(line 4)**  (prints the current value of count)

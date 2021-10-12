@@ -14,7 +14,7 @@ Here are some links to use the method of exporting files from one platform to be
 
 ### Loading files
 
-**Resources.Load\(\)** - Loads a file that matches the needed file type.
+**Resources.Load() **- Loads a file that matches the needed file type.
 
 {% embed url="https://docs.unity3d.com/ScriptReference/Resources.Load.html" %}
 
@@ -23,6 +23,4 @@ Here are some links to use the method of exporting files from one platform to be
 Here's a tutorial I found:
 
 {% embed url="https://youtu.be/NhyB00J6PiM" %}
-
-
 

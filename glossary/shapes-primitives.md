@@ -9,6 +9,5 @@
 * Square/Rectangle or Cube/Box
 * Circle/Ellipse or Sphere
 * Triangle or Pyramid
-* Cylinder \(3D\)
-* Capsule \(3D\)
-
+* Cylinder (3D)
+* Capsule (3D)

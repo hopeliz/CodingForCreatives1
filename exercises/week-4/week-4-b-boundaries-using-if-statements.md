@@ -57,9 +57,9 @@ void keyPressed() {
 
 ## Step 1: Imagine the "Real" Boundaries
 
-The current rectMode\(\) puts the x and y coordinates in the middle.
+The current rectMode() puts the x and y coordinates in the middle.
 
-If we try to restrain the x and y coordinates to the borders of our canvas, at least half the player square will be off the canvas. We need to **add** half the size of our player square to our "lower bounds" \(lowest number we want our x and y values\) and **subtract** half the size of our player square from our "upper bounds" \(highest number we want our x and y values\).
+If we try to restrain the x and y coordinates to the borders of our canvas, at least half the player square will be off the canvas. We need to **add** half the size of our player square to our "lower bounds" (lowest number we want our x and y values) and **subtract** half the size of our player square from our "upper bounds" (highest number we want our x and y values).
 
 We want to check to see if x and y are out of these bounds. When they are, we want to reset them to be at the nearest bound.
 
@@ -104,7 +104,7 @@ Output when played:
 
 ## Step 2: Add the Other Boundaries
 
-Copy and paste or practice typing the if statement for the upper bound of y \(the bottom of the canvas\).
+Copy and paste or practice typing the if statement for the upper bound of y (the bottom of the canvas).
 
 Instead of zero, we want to get the height. The variable **height** is a built-in variable that is equal to the height of the canvas.
 
@@ -255,6 +255,4 @@ void keyPressed() {
 Output when played and using WASD controls:
 
 ![](../../.gitbook/assets/w4bs4.gif)
-
-
 

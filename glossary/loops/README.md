@@ -4,11 +4,12 @@ Loops are a way of making code appear "cleaner" and more efficient when repeated
 
 ## Parts of a Loop
 
-1. Kind of loop     \(e.g. while, for, foreach\)
-2. Initialization of a **control variable**       \(e.g. int count = 1; int i = 0; etc.\) A **control variable** is a temporary variable used to iterate \(increase or decrease\) to limit the number of times a loop code runs.
-3. Test conditions     \(What needs to be true?\)
-4. Update the control variable      \(e.g. i++; i -= 5; etc.\)
-5. Action to take      \(What is in the code block\) 
+1. Kind of loop     (e.g. while, for, foreach)
+2. Initialization of a **control variable**       (e.g. int count = 1; int i = 0; etc.)\
+   A **control variable** is a temporary variable used to iterate (increase or decrease) to limit the number of times a loop code runs.
+3. Test conditions     (What needs to be true?)
+4. Update the control variable      (e.g. i++; i -= 5; etc.)
+5. Action to take      (What is in the code block) 
 
 ## Types of Loops
 
@@ -40,13 +41,12 @@ for (int i = 0; i < names.length; i++) {
 
 Prints:
 
-> Fluffy  
-> Fluffy  
-> Fluffy  
-> Nugget  
-> Nugget  
-> Nugget  
-> Pumpkin  
-> Pumpkin  
+> Fluffy\
+> Fluffy\
+> Fluffy\
+> Nugget\
+> Nugget\
+> Nugget\
+> Pumpkin\
+> Pumpkin\
 > Pumpkin
-

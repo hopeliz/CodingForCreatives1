@@ -3,13 +3,13 @@
 The steps below walk you through a Unity activity we did during Week 5. All code should allow you to copy and paste.
 
 {% hint style="info" %}
-Be sure to download Visual Studio to make it easier to code in C\# for Unity. Download it here:   
+Be sure to download Visual Studio to make it easier to code in C# for Unity. Download it here: \
 [https://visualstudio.microsoft.com/vs/community/](https://visualstudio.microsoft.com/vs/community/)
 {% endhint %}
 
 ## Step 1: Create a New Unity Project
 
-As long as you use a version no more than about 2 years old \(2018-present\), this should all be similar.
+As long as you use a version no more than about 2 years old (2018-present), this should all be similar.
 
 Here, I'm using Unity Hub, but it should be similar in the Unity standalone version.
 
@@ -19,31 +19,31 @@ Here, I'm using Unity Hub, but it should be similar in the Unity standalone vers
 4. Find and select the folder your project will be in. It will create a folder named the same as your project name.
 5. Click the Create button.
 
-![](../../.gitbook/assets/week5ds1.gif)
+![](../../.gitbook/assets/Week5Ds1.gif)
 
 This will set up a new project and open a user interface similar to this default layout:
 
-![](../../.gitbook/assets/image%20%2869%29.png)
+![](<../../.gitbook/assets/image (20).png>)
 
-New projects \(default layout\) will have the following Tabs/Windows:
+New projects (default layout) will have the following Tabs/Windows:
 
 1. **Hierarchy** - Has a list of the items in the current scene
 2. **Scene** - The "canvas" of sorts that allows you to see the objects visually from all different angles
-3. **Project** - List/folder structure of reusable parts of your project \(materials, audio clips, animations, scripts, prefabs, etc.\) ALSO - scenes
+3. **Project** - List/folder structure of reusable parts of your project (materials, audio clips, animations, scripts, prefabs, etc.) ALSO - scenes
 4. **Inspector** - Shows "components" or pieces of script that shows aspects of the selected item in an interface that you can directly update and monitor
-5. **Game** \(Hidden\) - Shows what the player sees through a camera object in the game
-6. **Console** \(Hidden\) - Shows messages and errors from the scripts
+5. **Game** (Hidden) - Shows what the player sees through a camera object in the game
+6. **Console** (Hidden) - Shows messages and errors from the scripts
 
 I like to see both the Scene and Game at the same time as well as my Project and Console windows at the same time. Each of these tabs are movable and snap to sides.
 
 Here's what my layout looks like:
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](<../../.gitbook/assets/image (21).png>)
 
-For more info \(including camera movements and options in each tab/window, check out the Unity Basics gitbook I'm working on:
+For more info (including camera movements and options in each tab/window, check out the Unity Basics gitbook I'm working on:
 
-**&gt;&gt;** [**The Default Interface**](https://hopemoore.gitbook.io/unity-basics/the-unity-interface/the-default-interface)  
-**&gt;&gt;** [**The Windows \(Tabs\)**](https://hopemoore.gitbook.io/unity-basics/the-unity-interface/the-tabs)\*\*\*\*
+**>> **[**The Default Interface**](https://hopemoore.gitbook.io/unity-basics/the-unity-interface/the-default-interface)****\
+**>> **[**The Windows (Tabs)**](https://hopemoore.gitbook.io/unity-basics/the-unity-interface/the-tabs)****
 
 ## **Step 2: Add an Object**
 
@@ -51,11 +51,11 @@ Instead of having to code the creations of primitive shapes, we can simply add t
 
 In the Hierarchy window, right click, then choose a primitive shape under "3D Object" For this exercise, I'll be using cubes.
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](<../../.gitbook/assets/image (22).png>)
 
 My default appears like this:
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](<../../.gitbook/assets/image (23).png>)
 
 {% hint style="info" %}
 If you cannot see your object in the Scene window, select the object in the Hierarchy window. Then hover over the Scene window and press the F key to "focus" on the selected item. You can select multiple items to bring them all into frame.
@@ -63,7 +63,7 @@ If you cannot see your object in the Scene window, select the object in the Hier
 
 I am going to use my right mouse button and middle button to rotate the scene to have the red X-axis on the gizmo on the top right to be on the right side:
 
-![](../../.gitbook/assets/image%20%2864%29.png)
+![](<../../.gitbook/assets/image (24).png>)
 
 This means moving the object to the left will move it into the negative end of X and right will be positive numbers.
 
@@ -73,41 +73,41 @@ Speaking of positioning...
 
 When you create an object, it might use the position, rotation, and size from another object.
 
-Each game object has a **Transform** component that holds and displays the position, rotation, and scale \(size\) of the object.
+Each game object has a **Transform** component that holds and displays the position, rotation, and scale (size) of the object.
 
 Select the cube and you should see this Transform info in the **Inspector** window.
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](<../../.gitbook/assets/image (25).png>)
 
 **Note:** Obviously, there are several other components for the shape, but we are focusing on the Transform for this exercise.
 
 To reset the position and rotation to zeros and the scale to 1 x 1 x 1, right click on "Transform" and click "Reset."
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](<../../.gitbook/assets/image (26).png>)
 
 It should now look like this:
 
-![](../../.gitbook/assets/image%20%2886%29.png)
+![](<../../.gitbook/assets/image (27).png>)
 
 {% hint style="info" %}
-You might have to refocus in the Scene window \(press F\).
+You might have to refocus in the Scene window (press F).
 {% endhint %}
 
 ## Step 4: Add a Script
 
 In this script, we are making our shape fly upward.
 
-In the Project window, right-click and choose Create &gt; C\# Script
+In the Project window, right-click and choose Create > C# Script
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](<../../.gitbook/assets/image (28).png>)
 
 It will appear like this, ready to give the script a name:
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](<../../.gitbook/assets/image (29).png>)
 
 I'm naming this FlyUp.cs
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](<../../.gitbook/assets/image (30).png>)
 
 {% hint style="info" %}
 Names are in Pascal casing and no spaces. It must match the class name within the script, so any renaming here needs to also happen within the script.
@@ -138,11 +138,11 @@ public class FlyUp : MonoBehaviour
 }
 ```
 
-**Start\(\)** is like setup\(\) in Processing - it runs once and on the first frame
+**Start() **is like setup() in Processing - it runs once and on the first frame
 
-**Update\(\)** is like draw\(\) in Processing - it runs once per frame and loops indefinately
+**Update()** is like draw() in Processing - it runs once per frame and loops indefinately
 
-To affect the cube, we'll put it in an variable above and outside of Start\(\):
+To affect the cube, we'll put it in an variable above and outside of Start():
 
 ```csharp
 public Transform cube;
@@ -150,13 +150,13 @@ public Transform cube;
 
 **public** is the _**scope**_ of the variable - public will allow it to be used by multiple blocks of code/functions within this script as well as other scripts AND it makes it visible in the Inspector window.
 
-**Transform** is the type of variable - we are using this variable to access the Transform component \(and thus, the stored info for position, rotation, and scale\) of the cube.
+**Transform** is the type of variable - we are using this variable to access the Transform component (and thus, the stored info for position, rotation, and scale) of the cube.
 
 The name of the variable is like any other - use camel casing and no spaces!
 
 We do not need to set what this variable is because we will do it through the user interface.
 
-Inside the Update\(\) function, we want to update the cube to add to the y-axis.
+Inside the Update() function, we want to update the cube to add to the y-axis.
 
 The LONG way would look something like this:
 
@@ -164,9 +164,9 @@ The LONG way would look something like this:
 cube.position += new Vector3(0, 1, 0);
 ```
 
-Here, we are using the . \(dot\) to access position information in cube.
+Here, we are using the . (dot) to access position information in cube.
 
-We are adding to the Y value. Unity doesn't like updating just one axis, so a full Vector3 \(a set of x, y, z coordinates\) needs to be defined.
+We are adding to the Y value. Unity doesn't like updating just one axis, so a full Vector3 (a set of x, y, z coordinates) needs to be defined.
 
 Here is a shorthand way to do the same thing:
 
@@ -176,7 +176,7 @@ cube.position += Vector3.up;
 
 Hovering over the "up" in Visual Studio will show this hint:
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](<../../.gitbook/assets/image (31).png>)
 
 These shorthands exist for left, right, up, down, forward, and back and adjust the appropriate axis by 1. MEANING we can multiply modifiers to affect speed, etc.
 
@@ -215,21 +215,21 @@ We'll be using this script for multiple items, so lets create an empty game obje
 
 In Hierarchy, right click and select "Create Empty."
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](<../../.gitbook/assets/image (32).png>)
 
 Once created, you can rename it by selecting it and single clicking it.
 
-I named mine "Game Controller" \(out of habit\), but you can name it whatever works for you.
+I named mine "Game Controller" (out of habit), but you can name it whatever works for you.
 
 Select the empty game object.
 
 Click and drag the script into the Inspector tab to add it to the game object.
 
-![](../../.gitbook/assets/week5ds6.gif)
+![](../../.gitbook/assets/Week5Ds6.gif)
 
 Here's what the Inspector looks like with Game Controller selected:
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+![](<../../.gitbook/assets/image (33).png>)
 
 Don't worry about the Transform here since we are concerned only with the added scripts/components.
 
@@ -237,13 +237,13 @@ You'll notice our variable appears and is currently "None" and looking for a obj
 
 You can click and drag the cube from the Hierarchy window OR click the bull's eye symbol on the right side of the variable to bring up a list of possible objects in your scene.
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](<../../.gitbook/assets/image (34).png>)
 
-Double-click on cube \(or whatever your shape is\).
+Double-click on cube (or whatever your shape is).
 
 It now shows as stored as our cube variable:
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](<../../.gitbook/assets/image (35).png>)
 
 ## Step 7: Test the Code
 
@@ -251,7 +251,7 @@ Click the play button at the top of the screen.
 
 Output when played:
 
-![](../../.gitbook/assets/week5ds7.gif)
+![](../../.gitbook/assets/Week5Ds7.gif)
 
 {% hint style="info" %}
 My settings have my screen turn green when I hit play. Yours might not change color.
@@ -275,7 +275,7 @@ Save the script.
 
 Go back to Unity and test it again...
 
-![](../../.gitbook/assets/week5ds8.gif)
+![](../../.gitbook/assets/Week5Ds8.gif)
 
 ## Step 9: Adding a Speed Modifier
 
@@ -325,31 +325,31 @@ Save the script and go back to Unity.
 
 It will update and the FlyUp component on Game Controller will have the new variable.
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](<../../.gitbook/assets/image (36).png>)
 
 You can now adjust this speed and it will modify the speed in which the cube moves up.
 
 ## Step 10: Add More Cubes
 
-Click on your cube \(or other shape\).
+Click on your cube (or other shape).
 
 You can right-click copy and right-click paste, use CTRL+C / CTRL+V, OR what I like doing: CTRL+D to **duplicate**.
 
 This makes a copy and adds a number after the name.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (37).png>)
 
 It also duplicates the position, rotation, and scale, so it will be overlapping the first.
 
 Use the coordinates in the Transform object OR click the move tool button on the top left and click and drag the vectors.
 
-![Move Tool](../../.gitbook/assets/image%20%2874%29.png)
+![Move Tool](<../../.gitbook/assets/image (38).png>)
 
-![](../../.gitbook/assets/week5ds10.gif)
+![](../../.gitbook/assets/Week5Ds10.gif)
 
 Do this again for a third cube.
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](<../../.gitbook/assets/image (39).png>)
 
 Go back to your FlyUp script.
 
@@ -360,7 +360,7 @@ public Transform cube1;
 public Transform cube2;
 ```
 
-Copy and past the code in Update\(\) and update it to apply to the new cubes.
+Copy and past the code in Update() and update it to apply to the new cubes.
 
 ```csharp
 cube1.position += Vector3.up * speed * Time.deltaTime;
@@ -400,17 +400,17 @@ public class FlyUp : MonoBehaviour
 
 Save the script and go back to Unity.
 
-Click on Game Controller \(or the object with your script\). It will now show the two new variables:
+Click on Game Controller (or the object with your script). It will now show the two new variables:
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](<../../.gitbook/assets/image (40).png>)
 
 Using the click-and-drag method or the click-on-the-bull's-eye method to assign the new cubes to the new variables.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](<../../.gitbook/assets/image (41).png>)
 
 Once those are assigned, test it!
 
-![](../../.gitbook/assets/week5ds10x.gif)
+![](../../.gitbook/assets/Week5Ds10x.gif)
 
 ## Step 11: Modify When the Cubes Move
 
@@ -470,11 +470,11 @@ Save your script and go to Unity.
 
 The FlyUp script component on the Game Controller will now have the new variable that can be adjusted:
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](<../../.gitbook/assets/image (42).png>)
 
 Test it by playing the scene!
 
-![](../../.gitbook/assets/week5ds11.gif)
+![](../../.gitbook/assets/Week5Ds11.gif)
 
 ## Step 12: Using a For Loop for Efficiency
 
@@ -488,7 +488,7 @@ Let's start by replacing the three cube variables with one array of Transforms c
 public Transform[] cubes;
 ```
 
-Update the code in Update\(\) to reflect these changes.
+Update the code in Update() to reflect these changes.
 
 Full updated code:
 
@@ -592,19 +592,19 @@ Save your script and return to Unity.
 
 Your FlyUp script component on the Game Controller will now look like this:
 
-![](../../.gitbook/assets/image%20%2890%29.png)
+![](<../../.gitbook/assets/image (43).png>)
 
 Twirl down the Cubes array.
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![](<../../.gitbook/assets/image (44).png>)
 
 Set the size. We have 3 cubes.
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](<../../.gitbook/assets/image (45).png>)
 
 Now, assign each element as you did the cube variables earlier.
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](<../../.gitbook/assets/image (46).png>)
 
 Once everything is assigned, press play and test it!
 
@@ -614,7 +614,7 @@ The result should be the same.
 
 For loops are great for referencing other items in the array, but foreach loops are for when you want each item to do the same action.
 
-Let's have these cubes disappear \(turn invisible\) when they hit another height.
+Let's have these cubes disappear (turn invisible) when they hit another height.
 
 Go to your code.
 
@@ -633,7 +633,7 @@ foreach (Transform cube in cubes)
 ...
 ```
 
-foreach loops create a new temporary variable \(here, it's a Transform type variable named cube\) and will do this for each item in the array \(here, it's cubes\).
+foreach loops create a new temporary variable (here, it's a Transform type variable named cube) and will do this for each item in the array (here, it's cubes).
 
 ```csharp
 foreach (Transform cube in cubes)
@@ -645,11 +645,11 @@ foreach (Transform cube in cubes)
 }
 ```
 
-The action code is using the . \(dot\) method of getting info from the current cube. 
+The action code is using the . (dot) method of getting info from the current cube. 
 
-We need to make the whole object become inactive, so we access the full gameObject, THEN use another . \(dot\) to perform an action/function.
+We need to make the whole object become inactive, so we access the full gameObject, THEN use another . (dot) to perform an action/function.
 
-The function SetActive\(\) takes a boolean value about whether the object is active. Here, we set it to false to make it inactive and not visible.
+The function SetActive() takes a boolean value about whether the object is active. Here, we set it to false to make it inactive and not visible.
 
 Full Code:
 
@@ -706,25 +706,24 @@ Go back to Unity and test it!
 
 Output when played:
 
-![](../../.gitbook/assets/week5ds13.gif)
+![](../../.gitbook/assets/Week5Ds13.gif)
 
 ## Step 14: Add Even More Cubes
 
 To show how nice using for loops with arrays, let's add more cubes.
 
-Select all the cubes \(hold down shift\) or duplicate them one by one and move them to continue the row.
+Select all the cubes (hold down shift) or duplicate them one by one and move them to continue the row.
 
 Select the Game Controller and increase the size of the Cubes array to fit your new amount.
 
-![](../../.gitbook/assets/image%20%2870%29.png)
+![](<../../.gitbook/assets/image (47).png>)
 
 The new elements will have the last element added. Update these new elements to have the proper cube assigned.
 
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](<../../.gitbook/assets/image (48).png>)
 
 Now, check it out! There is no need to update the code.
 
 Play it!
 
-![](../../.gitbook/assets/week5ds14.gif)
-
+![](../../.gitbook/assets/Week5Ds14.gif)

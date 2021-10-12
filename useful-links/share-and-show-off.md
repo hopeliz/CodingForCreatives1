@@ -4,47 +4,45 @@ Here are some links where you can share your work for others to use or display i
 
 ## General Development
 
-**GitHub**  
-[https://github.com/](https://github.com/)
+**GitHub**\
+[https://github.com/](https://github.com)
 
-**Glitch**  
-[https://glitch.com/](https://glitch.com/)
+**Glitch**\
+[https://glitch.com/](https://glitch.com)
 
 ## Audio & Music
 
-**dig.ccMixter**  
-[http://dig.ccmixter.org/](http://dig.ccmixter.org/)
+**dig.ccMixter**\
+[http://dig.ccmixter.org/](http://dig.ccmixter.org)
 
 ## Design
 
-**Dribbble**  
-[https://dribbble.com/](https://dribbble.com/)
+**Dribbble**\
+[https://dribbble.com/](https://dribbble.com)
 
 ## 3D Modeling and Animation
 
-**ArtStation**  
-[https://artstation.com/](https://artstation.com/)
+**ArtStation**\
+[https://artstation.com/](https://artstation.com)
 
-**Clara.io**  
-[https://clara.io](https://clara.io/library)
+**Clara.io**\
+****[https://clara.io](https://clara.io/library)
 
-**Poly by Google**  
-[https://poly.google.com/](https://poly.google.com/)  
+**Poly by Google**\
+[https://poly.google.com/](https://poly.google.com)\
 Note: will stop allowing uploads in April 2021 and will close in June 2021.
 
-**Sketchfab**  
-[https://sketchfab.com/](https://sketchfab.com/)
+**Sketchfab**\
+****[https://sketchfab.com/](https://sketchfab.com)
 
 ## 360 Video
 
-**Momento360**  
-Free account - put 360 videos in your blogs!  
-[https://www.momento360.com/](https://www.momento360.com/)
+**Momento360**\
+Free account - put 360 videos in your blogs!\
+[https://www.momento360.com/](https://www.momento360.com)
 
 ## Virtual Reality
 
-**WebVR Experiments with Google**  
+**WebVR Experiments with Google**\
 [https://experiments.withgoogle.com/collection/webvr](https://experiments.withgoogle.com/collection/webvr)
-
-
 

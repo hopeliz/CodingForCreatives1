@@ -80,11 +80,11 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](<../../.gitbook/assets/image (19).png>)
 
 ## Step 3: Update the Message
 
-Use keyPressed\(\) after and outside the draw\(\) function to see when the user starts using the keyboard.
+Use keyPressed() after and outside the draw() function to see when the user starts using the keyboard.
 
 ```java
 void keyPressed() {
@@ -106,7 +106,7 @@ void keyPressed() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5cs3.gif)
+![](../../.gitbook/assets/Week5Cs3.gif)
 
 Right now, the message is updating one character at a time.
 
@@ -124,7 +124,7 @@ void keyPressed() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5cs3x.gif)
+![](../../.gitbook/assets/Week5Cs3x.gif)
 
 So we can add to a message, but we need to:
 
@@ -141,7 +141,7 @@ boolean editing = false;
 
 Once the user starts typing, if the message isn't already being edited, it needs to reset to blank.
 
-Add an if statement to the keyPressed\(\) function:
+Add an if statement to the keyPressed() function:
 
 ```java
 void keyPressed() {
@@ -162,13 +162,13 @@ void keyPressed() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5cs3y.gif)
+![](../../.gitbook/assets/Week5Cs3y.gif)
 
-The keyPressed\(\) function can see when the ENTER or RETURN key is pressed. This could be a good way to "submit" the message or end editing.
+The keyPressed() function can see when the ENTER or RETURN key is pressed. This could be a good way to "submit" the message or end editing.
 
 Instead of **key**, these special buttons used **keyCode**.
 
-Here, both ENTER and RETURN are used so it will work on both Windows \(ENTER\) and Mac \(RETURN\).
+Here, both ENTER and RETURN are used so it will work on both Windows (ENTER) and Mac (RETURN).
 
 ```java
     if (keyCode == ENTER || keyCode == RETURN) {
@@ -233,7 +233,7 @@ void keyPressed() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5cs3z.gif)
+![](../../.gitbook/assets/Week5Cs3z.gif)
 
 This is what it looks like when pressing ENTER or RETURN at the end of a message.
 
@@ -314,7 +314,7 @@ void keyPressed() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5cs4.gif)
+![](../../.gitbook/assets/Week5Cs4.gif)
 
 ## Step 5: Polishing
 
@@ -322,7 +322,7 @@ Add a BACKSPACE option in case there's a mistake.
 
 Instead of adding, the message should be the same except for the last letter. This can be done with a substring.
 
-The length of a string value can be accessed through its length\(\) property.
+The length of a string value can be accessed through its length() property.
 
 ```java
   ...
@@ -364,7 +364,7 @@ Instead of showing the last message, the prompt message could be shown after sub
 
 HOWEVER, if you press ENTER or RETURN, it puts an empty entry to the array.
 
-Fix this by moving it into the "if \(editing == true\)" statement and putting in as an else if statement as a second option after Backspace.
+Fix this by moving it into the "if (editing == true)" statement and putting in as an else if statement as a second option after Backspace.
 
 Add one more if statement to only add entries that have an actual message
 
@@ -484,5 +484,4 @@ void keyPressed() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5csfinal.gif)
-
+![](../../.gitbook/assets/Week5Csfinal.gif)

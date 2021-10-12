@@ -4,7 +4,7 @@
 
 * Number with a decimal point
 * Used for precision
-* Used for percentages, but between 0 and 1 \(0 and 100%\)
+* Used for percentages, but between 0 and 1 (0 and 100%)
 * Used for time
 
 **Examples:**
@@ -30,7 +30,7 @@ percentage = 0.25
 {% hint style="info" %}
 Some languages have multiple types with decimal points
 
-Example: a float in C\# or Unity will need an F after the number in the code to tell it is a float and not something else**.** See the example below.
+Example: a float in C# or Unity will need an F after the number in the code to tell it is a float and not something else**. **See the example below.
 {% endhint %}
 
 ```csharp
@@ -43,7 +43,7 @@ float speed = 2.5F;
 Do not use commas in your numbers!
 {% endhint %}
 
-## Shortcuts \(Assignment Operators\)
+## Shortcuts (Assignment Operators)
 
 ### Quick Math
 
@@ -59,7 +59,7 @@ Do not use commas in your numbers!
 This updates the variable when used
 {% endhint %}
 
-**Example:**      
+**Example:  **    
 
 _Processing, Java-based, and C-based:_
 
@@ -86,4 +86,3 @@ print(opacity)        # Prints "0.65"
 ```
 
 ###   
-
